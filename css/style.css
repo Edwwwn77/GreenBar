@@ -1,0 +1,319 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #bdbdbd;
+
+}
+
+/* Header */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+header {
+    background-color: rgba(3, 53, 25, 0.986);
+
+
+
+}
+
+header nav ul {
+    background-color: rgba(3, 53, 25, 0.986);
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.7;
+
+
+}
+
+header {
+    top: 5px;
+    grid-area: header;
+
+
+
+}
+
+nav {
+    grid-area: nav;
+
+
+
+
+
+}
+
+header nav ul li {
+    display: flex;
+    margin: 3px 3px 2px 3px;
+    padding: 5px 10px 5px 5px;
+    justify-content: center;
+
+
+}
+
+header img {
+    width: 70px;
+    display: flex;
+
+}
+
+
+/*  Main */
+p {
+    margin: 5px 20px 5px 20px;
+    text-align: justify;
+    
+
+
+}
+main {
+    grid-area: main;
+
+
+}
+img{
+    max-width:100%
+    
+    }
+
+main .encabezadosDeseccion h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+
+}
+
+main .encabezadosDeseccion h2 {
+    display: flex;
+    justify-content: center;
+    margin: 100px 10px 100px 10px;
+    
+
+}
+
+main .encabezadosDeseccion h4 {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+main .ultimoGpdisputado .portadaDelhome img {
+    width: 100%;
+}
+
+
+main .box {
+    display: inline-flex;
+    background-color: gainsboro;
+    margin: 40px 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px gray;
+    overflow: hidden;
+    align-items: center;
+    width: 355px;
+
+}
+
+.tituloDelapagina {
+    display: flex;
+    justify-content: center;
+}
+
+main .boxNewslatter {
+    display: flex;
+    background-color: gainsboro;
+    margin: 40px 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px gray;
+    overflow: hidden;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+section .boxNewslatter form {
+    margin: 90px 10px 10px 10px;
+    flex-flow: column;
+    justify-content: center;
+
+
+}
+
+    
+main .boxNewslatter h2 {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+main .box .tarjeta img {
+    width: 90px;
+    align-content: center;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 50px 10px 50px;
+
+}
+
+main h3 {
+    text-align: center;
+}
+
+
+/* Footer css */
+footer {
+    grid-area: pie;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(4, 65, 34);
+    color: aliceblue;
+    flex-wrap: nowrap;
+}
+
+footer a {
+    color: aliceblue;
+    text-decoration: none;
+
+
+}
+
+footer ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+footer ul li .encabezadosDeseccion {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+footer ul li img {
+    width: 50px;
+
+}
+
+
+
+.noticias {
+    background-color: gainsboro;
+    margin: 5px;
+
+
+}
+
+body {
+    justify-content: center;
+    gap: 10px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav    nav    nav"
+        "main   main   main"
+        "pie    pie    pie";
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 100px 1 1fr 100%;
+}
+
+@media screen and (max-widht: 1024x) {
+
+    body {
+        grid-template-areas:
+            "header header "
+            "nav   nav"
+            "main main "
+            "pie pie ";
+        grid-template-columns: 150px 1fr;
+        grid-template-rows: 100px 1 auto 1fr;
+    }
+
+    .ultimoGpdisputado #img {
+        width: 100%;
+        height: 100%;/
+    }
+}
+      
+    
+
+
+
+@media screen and (max-widht: 768x) {
+
+    body {
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "pie";
+        grid-template-columns: 150px;
+        grid-template-rows: 100px 1 auto 1fr;
+    }
+
+    .ultimoGpdisputado #img {
+        width: 100%;
+        height: 100%;/
+    }
+}
+    @media screen and (max-widht: 375px) {
+
+        body {
+            grid-template-areas:
+                "header"
+                "nav"
+                "nav"
+                "main"
+                "pie";
+            grid-template-columns: 375px;
+            grid-template-rows: 100px 1fr 1fr auto 1fr;
+        }
+    
+        .ultimoGpdisputado #img {
+            width: 100%;
+            height: 100%;/
+        }
+        
+        header nav ul li {
+            margin: 3px 3px 2px 3px;
+            padding: 5px 10px 5px 5px;
+            justify-content: center;
+            flex-wrap:nowrap
+        }
+        main .box {
+            display:flex;
+            background-color: gainsboro;
+            margin: 40px 10px 10px 16px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px gray;
+            overflow: hidden;
+            
+            
+        }
+        
+        
+}

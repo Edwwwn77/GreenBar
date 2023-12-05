@@ -1,0 +1,66 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+   
+}
+/* Header */
+/* Para colocar una nueva fuente tipografica aplicamos ''font-family:'' */
+/* para sacar los bullets de una lista en el header se debe colocar ''list-style:none''  */
+/* con ''Header nav ul li'' estoy sacando los bullets de la nav bar en especificio
+pero si quiero sacarlo de todas las listas comprendidas en mi codigo utilizo ''ul,ol'' unicamente afectando asi todas de
+forma global  */
+
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+    padding:  0 ;
+}
+a {
+text-decoration: none; /* con esto retiramos el subrayado de todos los enlaces de forma global para no tener que repetirlo */
+color: white;
+}
+ul,ol {
+    list-style: none;
+}
+/* Elementos Header */
+header nav ul {
+    background-color: rgba(3, 53, 25, 0.986);
+    
+}
+/* Display inline es para ver a los elementos en horizontal y no vertical */
+header nav ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+
+/* Elementos Main */
+.tarjeta {
+background-color: gainsboro;
+}
+
+.box {
+    background-color: gainsboro;
+    margin: 10px 10px 20px 10px;
+  
+    border-radius: 5px;
+    width: 200 px;
+    box-shadow: 9px 10px 20px;
+}
+
+/* Footer css */
+footer {
+    background-color: rgb(4, 65, 34);
+    color: aliceblue;
+}
+footer a {
+    color: aliceblue;
+    text-decoration: none;
+    /* text-decoration:none sirva para quitar el subrayado a los links */
+
+}
+footer ul li {
+    display: inline-block;
+}
+
+
