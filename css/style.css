@@ -70,6 +70,7 @@ header nav ul li {
 header img {
     width: 70px;
     display: flex;
+    object-fit: contain;
 
 }
 
@@ -89,8 +90,8 @@ main {
 }
 img{
     max-width:100%
-    
-    }
+    object-fit contain ;
+ }
 
 main .encabezadosDeseccion h1 {
     display: flex;
@@ -173,6 +174,7 @@ main .box .tarjeta img {
     align-content: center;
     padding: 5px 5px 5px 5px;
     margin: 10px 50px 10px 50px;
+    object-fit: contain;
 
 }
 
@@ -215,6 +217,8 @@ footer ul li .encabezadosDeseccion {
 
 footer ul li img {
     width: 50px;
+    object-fit: contain;
+    
 
 }
 
