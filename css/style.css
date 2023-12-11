@@ -133,7 +133,8 @@ main .linkReferencial {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2px 2px 2px 2px;
+    padding: 2px 2px 0px 2px;
+    
 }
 
 main .textosDelgp p {
@@ -144,7 +145,7 @@ main .textosDelgp p {
 
 main .linkReferencial .enlaceReferencial1 {
     padding: 2px 2px 2px 2px;
-    color: #cedc00;
+    color:  green;
 }
 
 main .imagen2 {
@@ -156,6 +157,12 @@ main .imagen1 {
     max-width: 100%;
     margin-top: 20px;
 }
+main .carouselExampleCaptions {
+    color: #cedc00;
+}
+   
+
+
 
 main .encabezadosDeseccion h1 {
     display: flex;
@@ -198,7 +205,7 @@ main .ultimoGpdisputado .portadaDelhome img {
 main .box {
     display: inline-flex;
     background-color: gainsboro;
-    margin: 40px 13px 10px 13px;
+    margin: 50px 50px 10px 50px;
     border-radius: 5px;
     box-shadow: 5px 5px 15px gray;
     overflow: hidden;
@@ -208,8 +215,40 @@ main .box {
     padding: 16px;
 
 }
+main .textoDelmain p {
+    display: flex;
+    text-align: left;
+    width: 720px;
 
 
+}
+main .imagenDelmain {
+    display: flex;
+    justify-content: left;
+    width: 639px;
+    height: 545px;
+    margin: -389px 1023px 117px 835px;
+
+
+}
+main .imagenDelmain2 {
+    display: flex;
+    justify-content: left;
+    width: 639px;
+    height: 545px;
+    margin: -662px 1102px 180px 1168px
+
+
+}
+main .imagenDelmain3 {
+    display: flex;
+    justify-content: left;
+    width: 639px;
+    height: 545px;
+    margin: -724px 1102px 180px 1500px
+
+
+}
 .tituloDelapagina {
     display: flex;
     justify-content: center;
@@ -217,11 +256,11 @@ main .box {
 
 main .boxNewslatter {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-content: flex-end;
     justify-content: center;
     background-color: gainsboro;
-    margin: 40px 10px;
+    margin: 40px 580px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 5px 5px 15px gray;
@@ -230,7 +269,12 @@ main .boxNewslatter {
     max-width: 100%;
     height: auto;
 }
+main .boxNewslatter .labelsDeformulario {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
 
+}
 section .boxNewslatter form {
     margin: 90px 10px 10px 10px;
     flex-flow: column;
@@ -255,7 +299,7 @@ section .boxNewslatter .formularioDecontacto .labelsDeformulario {
 
 main .boxNewslatter h2 {
     text-align: center;
-    margin-top: 50px;
+    margin: 10px -287px 10px -23px
 
 }
 
@@ -312,6 +356,21 @@ footer ul li img {
 
 }
 
+footer .direccion {
+   display: flex;
+    align-items: center;
+
+    
+}
+footer .direccion2 {
+    display: flex;
+    margin: -157px 0px 0px 0px;
+}
+footer .direccion h4 {
+    display: flex;
+     align-items: center;
+ 
+ }
 
 
 .noticias {
@@ -355,16 +414,36 @@ body {
         box-shadow: 5px 5px 15px gray;
         overflow: hidden;
     }
-
+    main .textoDelmain p {
+        display: flex;
+        width: 388px;
+        text-align: justify;
+    }
+    main .imagenDelmain {
+        display: none;
+    }
+    main .imagenDelmain2 {
+        display: none
+    }
+    main .imagenDelmain3 {
+        display: none
+    }
     .tituloDelapagina {
         padding: 30px;
     }
-
+    main .boxNewslatter h2 {
+        text-align: center;
+        margin: 10px -28px 10px -23px;
+    }
     .nav {
         flex-direction: column;
         background-color: #07371c;
     }
-
+main .textoDelmain p {
+    display: flex;
+    text-align: justify;
+    width: 1000px;
+}
     main .encabezadosDeseccion h1,
     main .tituloDelapagina h1,
     main .tituloDelapagina h2,
@@ -379,17 +458,52 @@ body {
         width: 100%;
         height: 100%;
     }
-
+main .box img {
+    display: flex;
+    align-items: center;
+    margin: 28px 114px;
+}
     img {
         max-width: 100%;
         object-fit: cover;
     }
+    
+    main .boxNewslatter {
+        display: flex;
+        background-color: gainsboro;
+        margin: 40px 134px 10px 260px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px gray;
+        overflow: hidden;
+        align-content: center;
+        width: 500px;
+        height: 500px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    footer .listaPie1 ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+    }
+    footer .listaPie2 ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+    }
+    footer .listaPie2 ul h2 {
+        display: flex;
+        flex-direction: column;
+    }
+    footer .direccion2 {
+        display: flex;
+        margin: -157px 0px 0px 0px;
+    }
 }
 
-main .boxNewslatter {
-    width: 512px;
-    height: 512px;
-}
+
 
 
 
@@ -418,7 +532,25 @@ main .boxNewslatter {
         box-shadow: 5px 5px 15px gray;
         overflow: hidden;
     }
-
+    main .imagenDelmain {
+        display: none;
+    }
+    main .box img {
+        display: flex;
+        align-items: center;
+        margin: 28px 114px;
+    }
+    main .imagenDelmain2 {
+        display: none
+    }
+    main .imagenDelmain3 {
+        display: none
+    }
+    main .textoDelmain p {
+        display: flex;
+        width: 738px;
+        text-align: justify;
+    }
     main .encabezadosDeseccion h1,
     main .tituloDelapagina h1,
     main .tituloDelapagina h2,
@@ -510,14 +642,19 @@ main .boxNewslatter {
 
     main .box {
         background-color: gainsboro;
-        margin: 40px 32px 10px 32px;
+        margin: 13px -138px 32px 38px;
         border-radius: 5px;
         box-shadow: 5px 5px 15px gray;
         overflow: hidden;
         align-items: center;
         justify-content: center;
+        width: 340px;
     }
-
+    main .textoDelmain p {
+        display: flex;
+        width: 385px;
+        text-align: justify;
+    }
     main .boxNewslatter {
         display: flex;
         background-color: gainsboro;
@@ -531,7 +668,20 @@ main .boxNewslatter {
         align-items: center;
         flex-direction: row;
     }
-
+    main .box img {
+        display: flex;
+        align-items: center;
+        margin: 28px 114px;
+    }
+    main .imagenDelmain {
+        display: none;
+     }
+     main .imagenDelmain2 {
+         display: none
+     }
+     main .imagenDelmain3 {
+         display: none
+     }
     main .boxNewslatter .labelsDeformulario {
         display: flex;
         flex-direction: column;
