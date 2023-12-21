@@ -1,16 +1,26 @@
-
 main {
-    .ultimoGpdisputado{
-        .portadaDelhome{
+    .ultimoGpdisputado {
+        .portadaDelhome {
             img {
                 width: 100%;
             }
         }
-    
-}
+
+    }
 }
 
-img {
-    max-width: 100%
-}
+.linkReferencial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 2px 0px 2px;
 
+
+
+
+}
+p {
+    margin: 5px 20px 5px 20px;
+    text-align: justify;
+}

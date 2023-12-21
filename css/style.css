@@ -68,25 +68,7 @@ main .ultimoGpdisputado .portadaDelhome img {
   width: 100%;
 }
 
-img {
-  max-width: 100%;
-}
-
-/*  Main */
-p {
-  margin: 5px 20px 5px 20px;
-  text-align: justify;
-}
-
-main {
-  grid-area: main;
-}
-
-main .articulosDeblog {
-  justify-content: center;
-}
-
-main .linkReferencial {
+.linkReferencial {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,15 +76,23 @@ main .linkReferencial {
   padding: 2px 2px 0px 2px;
 }
 
+p {
+  margin: 5px 20px 5px 20px;
+  text-align: justify;
+}
+
+main .articulosDeblog {
+  justify-content: center;
+}
+
+main {
+  grid-area: main;
+}
+
 main .textosDelgp p {
   display: flex;
   padding: 2px 2px 2px 2px;
   align-items: flex-start;
-}
-
-main .linkReferencial .enlaceReferencial1 {
-  padding: 2px 2px 2px 2px;
-  color: green;
 }
 
 main .imagen2 {

@@ -4,66 +4,14 @@
 @import "layout/header";
 @import "layout/navigation";
 @import "pages/home";
+@import "pages/blog";
+@import "layout/grid";
+@import "pages/gpDeabudhabi";
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  Main */
-p {
-    margin: 5px 20px 5px 20px;
-    text-align: justify;
-
-
-
-}
-
-main {
-    grid-area: main;
-
-
-}
-
-main .articulosDeblog {
-    justify-content: center;
-
-
-}
-
-
-
-main .linkReferencial {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2px 2px 0px 2px;
-    
-}
-
-main .textosDelgp p {
-    display: flex;
-    padding: 2px 2px 2px 2px;
-    align-items: flex-start;
-}
-
-main .linkReferencial .enlaceReferencial1 {
-    padding: 2px 2px 2px 2px;
-    color:  green;
-}
 
 main .imagen2 {
     max-width: 100%;
