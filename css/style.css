@@ -36,6 +36,10 @@ header .bg-body-tertiary {
   --bs-bg-opacity: 0;
 }
 
+element.style {
+  width: 100%;
+}
+
 .navbar {
   --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.95);
   --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0);
