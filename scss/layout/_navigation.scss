@@ -12,12 +12,7 @@
 
 }
 
-.navbar {
-    --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.95);
-    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0);
-    --bs-navbar-toggler-transition: box-shadow 0.15s cubic-bezier(0, 0, 0, 1.13)-out;
-    --bs-navbar-active-color: white
-}
+
 .nav {
     flex-direction: column;
     align-content: center;

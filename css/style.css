@@ -24,13 +24,13 @@ header {
   top: 5px;
   grid-area: header;
 }
-header .tituloDelapagina h1 {
-  color: #cedc00;
-}
 header .imagenLogo {
   width: 70px;
   display: flex;
   object-fit: fill;
+}
+header .tituloDelapagina h1 {
+  color: #cedc00;
 }
 header .bg-body-tertiary {
   --bs-bg-opacity: 0;
@@ -46,13 +46,6 @@ header .bg-body-tertiary {
 .nav-link {
   color: #cedc00;
   --bs-emphasis-color: rgb(255, 255, 255);
-}
-
-.navbar {
-  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.95);
-  --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0);
-  --bs-navbar-toggler-transition: box-shadow 0.15s cubic-bezier(0, 0, 0, 1.13)-out;
-  --bs-navbar-active-color: white ;
 }
 
 .nav {

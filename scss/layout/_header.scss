@@ -2,29 +2,29 @@ header {
     background-color: rgba(3, 53, 25, 0.986);
     top: 5px;
     grid-area: header;
-   
-    .tituloDelapagina{ 
-        
-        h1 {
-        color: #cedc00;
-    }
-    
-    }
-    
-    
 
-    .imagenLogo{
+    .imagenLogo {
+
         width: 70px;
         display: flex;
         object-fit: fill;
 
     }
-   
+
+    .tituloDelapagina {
+
+        h1 {
+            color: #cedc00;
+        }
+
+        
+        
+    }
     
-    
+
     .bg-body-tertiary {
         --bs-bg-opacity: 0;
-    
+
     }
 
 }
