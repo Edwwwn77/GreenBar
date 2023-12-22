@@ -15,8 +15,12 @@ ol {
 }
 
 body {
+  background-color: rgb(247, 255, 246);
+}
+
+body {
   font-family: "Poppins", sans-serif;
-  background-color: #bdbdbd;
+  background-color: rgb(247, 255, 246);
 }
 
 header {
@@ -90,16 +94,6 @@ main .textosDelgp p {
   display: flex;
   padding: 2px 2px 2px 2px;
   align-items: flex-start;
-}
-
-main .imagen2 {
-  max-width: 100%;
-  margin-top: 20px;
-}
-
-main .imagen1 {
-  max-width: 100%;
-  margin-top: 20px;
 }
 
 main .carouselExampleCaptions {
