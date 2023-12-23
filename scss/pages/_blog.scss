@@ -2,6 +2,9 @@ main {
     .articulosDeblog {
         justify-content: center;
     }
+    h3 {
+        text-align: center;
+    }
     .box {
         display: inline-flex;
         background-color: gainsboro;
@@ -12,6 +15,14 @@ main {
         width: 355px;
         justify-content: center;
         padding: 16px;
-    
+
+        img {
+            width: 90px;
+            align-content: center;
+            padding: 5px 5px 5px 5px;
+            margin: 10px 50px 10px 50px;
+            object-fit: contain;
+
+        }
     }
 }

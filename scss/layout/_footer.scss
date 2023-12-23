@@ -1,0 +1,57 @@
+footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(4, 65, 34);
+    color: aliceblue;
+    flex-wrap: nowrap;
+
+    .direccion {
+        display: flex;
+        align-items: center;
+       
+        h4 {
+            display: flex;
+             align-items: center;
+         
+         }
+
+    }
+
+    .direccion2 {
+        display: flex;
+        margin: -157px 0px 0px 0px;
+    }
+
+    ul {
+
+        li {
+            display: flex;
+            align-items: center;
+            padding: 10px 10px 10px 10px;
+            display: inline-block;
+
+            img {
+                width: 50px;
+                object-fit: contain;
+
+
+            }
+
+            .encabezadosDeseccion {
+                display: flex;
+                align-items: center;
+                padding: 10px 10px 10px 10px;
+                display: inline-block;
+            }
+        }
+    }
+
+    a {
+        color: aliceblue;
+        text-decoration: none;
+
+
+    }
+}

@@ -18,8 +18,8 @@ footer {
 
 }
 
-@media screen and (max-width: 1024px) {
 
+@media screen and (max-width: 1024px) {
     body {
         grid-template-areas:
             "header header"
@@ -28,123 +28,63 @@ footer {
             "pie pie";
         grid-template-columns: 512px 512px;
         grid-template-rows: 150px 20px auto 1fr;
+
+        .box {
+            display: inline-flex;
+            background-color: gainsboro;
+            margin: 53px 67px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px gray;
+            overflow: hidden;
+
+            img {
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .textoDelmain p {
+            display: flex;
+            width: 388px;
+            text-align: justify;
+        }
+
+        .imagenDelmain,
+        .imagenDelmain2,
+        .imagenDelmain3 {
+            display: none;
+        }
+
+        .tituloDelapagina {
+            padding: 30px;
+        }
+
+        .boxNewslatter {
+            display: flex;
+            background-color: gainsboro;
+            margin: 40px 134px 10px 260px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px gray;
+            overflow: hidden;
+            align-content: center;
+            width: 500px;
+            height: 500px;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            h2 {
+                text-align: center;
+                margin: 10px -28px 10px -23px;
+            }
+
+            .formularioDecontacto {
+                display: flex;
+            }
+        }
     }
 
-    main .box {
-        display: inline-flex;
-        background-color: gainsboro;
-        margin: 53px 67px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 15px gray;
-        overflow: hidden;
-    }
-
-    main .textoDelmain p {
-        display: flex;
-        width: 388px;
-        text-align: justify;
-    }
-
-    main .imagenDelmain {
-        display: none;
-    }
-
-    main .imagenDelmain2 {
-        display: none
-    }
-
-    main .imagenDelmain3 {
-        display: none
-    }
-
-    .tituloDelapagina {
-        padding: 30px;
-    }
-
-    main .boxNewslatter h2 {
-        text-align: center;
-        margin: 10px -28px 10px -23px;
-    }
-
-    .nav {
-        flex-direction: column;
-        background-color: #07371c;
-    }
-
-    main .textoDelmain p {
-        display: flex;
-        text-align: justify;
-        width: 1000px;
-    }
-
-    main .encabezadosDeseccion h1,
-    main .tituloDelapagina h1,
-    main .tituloDelapagina h2,
-    main .encabezadosDeseccion h2 {
-        display: flex;
-        justify-content: center;
-        margin-top: 40px;
-        margin-bottom: 20px;
-    }
-
-    .ultimoGpdisputado #img {
-        width: 100%;
-        height: 100%;
-    }
-
-    main .box img {
-        display: flex;
-        align-items: center;
-        margin: 28px 114px;
-    }
-
-    img {
-        max-width: 100%;
-        object-fit: cover;
-    }
-
-    main .boxNewslatter {
-        display: flex;
-        background-color: gainsboro;
-        margin: 40px 134px 10px 260px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 15px gray;
-        overflow: hidden;
-        align-content: center;
-        width: 500px;
-        height: 500px;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    main .boxNewslatter .formularioDecontacto {
-        display: flex;
-    }
-
-    footer .listaPie1 ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 10px 10px 10px;
-    }
-
-    footer .listaPie2 ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 10px 10px 10px;
-    }
-
-    footer .listaPie2 ul h2 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    footer .direccion2 {
-        display: flex;
-        margin: -157px 0px 0px 0px;
-    }
 }
+
 
 
 
@@ -153,7 +93,6 @@ footer {
 @media screen and (max-width: 768px) {
 
     .tituloDelapagina {
-
         padding: 10px;
     }
 
@@ -165,49 +104,64 @@ footer {
             "pie pie";
         grid-template-columns: 384px 384px;
         grid-template-rows: 100px 300px auto 1fr;
-    }
 
-    main .box {
-        display: inline-flex;
-        background-color: gainsboro;
-        margin: 53px 13px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 15px gray;
-        overflow: hidden;
-    }
+        .box {
+            display: inline-flex;
+            background-color: gainsboro;
+            margin: 53px 13px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px gray;
+            overflow: hidden;
 
-    main .imagenDelmain {
-        display: none;
-    }
+            img {
+                display: flex;
+                align-items: center;
+                margin: 28px 114px;
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
 
-    main .box img {
-        display: flex;
-        align-items: center;
-        margin: 28px 114px;
-    }
+        .imagenDelmain,
+        .imagenDelmain2,
+        .imagenDelmain3 {
+            display: none;
+        }
 
-    main .imagenDelmain2 {
-        display: none
-    }
+        .textoDelmain p {
+            display: flex;
+            width: 738px;
+            text-align: justify;
+        }
 
-    main .imagenDelmain3 {
-        display: none
-    }
+        .encabezadosDeseccion h1,
+        .tituloDelapagina h1,
+        .tituloDelapagina h2,
+        .encabezadosDeseccion h2 {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
 
-    main .textoDelmain p {
-        display: flex;
-        width: 738px;
-        text-align: justify;
-    }
+        .boxNewslatter {
+            display: flex;
+            background-color: gainsboro;
+            margin: 40px 134px 10px 134px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px gray;
+            overflow: hidden;
+            align-content: center;
+            width: 500px;
+            height: 500px;
+            flex-direction: column;
+            flex-wrap: wrap;
 
-    main .encabezadosDeseccion h1,
-    main .tituloDelapagina h1,
-    main .tituloDelapagina h2,
-    main .encabezadosDeseccion h2 {
-        display: flex;
-        justify-content: center;
-        margin-top: 40px;
-        margin-bottom: 20px;
+            h2 {
+                text-align: center;
+                margin: 10px -28px 10px -23px;
+            }
+        }
     }
 
     .nav {
@@ -215,47 +169,25 @@ footer {
         background-color: #07371c;
     }
 
-    main .boxNewslatter {
-        display: flex;
-        background-color: gainsboro;
-        margin: 40px 134px 10px 134px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 15px gray;
-        overflow: hidden;
-        align-content: center;
-        width: 500px;
-        height: 500px;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
     .ultimoGpdisputado #img {
         width: 100%;
         height: 100%;
     }
 
-    img {
-        max-width: 100%;
-        object-fit: cover;
-    }
+    footer {
 
-    footer .listaPie1 ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 10px 10px 10px;
-    }
+        .listaPie1 ul,
+        .listaPie2 ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 10px 10px 10px;
 
-    footer .listaPie2 ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 10px 10px 10px;
-    }
-
-    footer .listaPie2 ul h2 {
-        display: flex;
-        flex-direction: column;
+            h2 {
+                display: flex;
+                flex-direction: column;
+            }
+        }
     }
 }
 
@@ -272,96 +204,75 @@ footer {
             "pie";
         grid-template-columns: 150px;
         grid-template-rows: 100px 1fr 1fr auto 1fr;
-    }
-
-    body {
         display: block;
-    }
 
-    .tituloDelapagina {
+        .tituloDelapagina {
+            padding: 30px;
+        }
 
-        padding: 30px;
-    }
+        .nav {
+            flex-direction: column;
+        }
 
-    .nav {
-        flex-direction: column;
-    }
+        .ultimoGpdisputado #img {
+            width: 100%;
+            height: 100%;
+        }
 
-    .ultimoGpdisputado #img {
-        width: 100%;
-        height: 100%;
-    }
+        .box {
+            background-color: gainsboro;
+            margin: 13px -138px 32px 38px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px gray;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            width: 340px;
 
-    main .box {
-        background-color: gainsboro;
-        margin: 13px -138px 32px 38px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 15px gray;
-        overflow: hidden;
-        align-items: center;
-        justify-content: center;
-        width: 340px;
-    }
+            img {
+                display: flex;
+                align-items: center;
+                margin: 28px 114px;
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
 
-    main .textoDelmain p {
-        display: flex;
-        width: 385px;
-        text-align: justify;
-    }
+        .imagenDelmain, .imagenDelmain2, .imagenDelmain3 {
+            display: none;
+        }
 
-    main .boxNewslatter {
-        display: flex;
-        background-color: gainsboro;
-        margin: 16px 215px 18px 11px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 15px gray;
-        overflow: hidden;
-        align-content: flex-end;
-        width: 400px;
-        height: 480px;
-        align-items: center;
-        flex-direction: row;
-    }
+        .textoDelmain p {
+            display: flex;
+            width: 385px;
+            text-align: justify;
+        }
 
-    main .box img {
-        display: flex;
-        align-items: center;
-        margin: 28px 114px;
-    }
+        .boxNewslatter {
+            display: flex;
+            background-color: gainsboro;
+            margin: 16px 215px 18px 11px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 15px gray;
+            overflow: hidden;
+            align-content: flex-end;
+            width: 400px;
+            height: 480px;
+            align-items: center;
+            flex-direction: row;
 
-    main .imagenDelmain {
-        display: none;
-    }
+            .labelsDeformulario {
+                display: flex;
+                flex-direction: column;
+                align-content: flex-end;
+                margin: 49px 6px 15px 10px;
+            }
 
-    main .imagenDelmain2 {
-        display: none
-    }
-
-    main .imagenDelmain3 {
-        display: none
-    }
-
-    main .boxNewslatter .labelsDeformulario {
-        display: flex;
-        flex-direction: column;
-        align-content: flex-end;
-        margin: 49px 6px 15px 10px;
-    }
-
-    section .boxNewslatter form {
-
-        flex-flow: column;
-        justify-content: center;
-    }
-
-    main .encabezadosDeseccion h2 {
-        display: flex;
-        font-size: large;
-    }
-
-
-    .box {
-        margin: 40px 35px 10px 35px;
+            form {
+                flex-flow: column;
+                justify-content: center;
+            }
+        }
     }
 
     img {
@@ -369,22 +280,17 @@ footer {
         object-fit: cover;
     }
 
-    footer .listaPie1 ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 10px 10px 10px;
-    }
+    footer {
+        .listaPie1 ul, .listaPie2 ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 10px 10px 10px;
 
-    footer .listaPie2 ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 10px 10px 10px;
-    }
-
-    footer .listaPie2 ul h2 {
-        display: flex;
-        flex-direction: column;
+            h2 {
+                display: flex;
+                flex-direction: column;
+            }
+        }
     }
 }
