@@ -1,0 +1,52 @@
+main {
+    section {
+        .boxNewslatter {
+
+            display: flex;
+            flex-direction: row;
+            align-content: flex-end;
+            justify-content: center;
+            background-color: gainsboro;
+            margin: 40px 580px;
+            padding: 64px;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 700px;
+            max-width: 100%;
+            height: auto;
+
+            h2 {
+
+                text-align: center;
+                margin: -22px -287px 10px -23px
+            }
+
+            .formularioDecontacto {
+                display: flex;
+                margin: 41px 2px 2px 2px;
+                padding: 0px 2px 2px 2px;
+
+                .labelsDeformulario {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: flex-end;
+                    flex-flow: column;
+                    justify-content: center;
+                    flex-flow: column;
+                    flex-direction: column;
+                    margin: 20px 10px 10px 10px;
+                    padding: 5px 5px 5px 5px;
+                    font-size: larger;
+                    font-weight: 500;
+                }
+            }
+
+
+
+        }
+
+
+
+
+    }
+}

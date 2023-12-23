@@ -1,7 +1,7 @@
 header {
     background-color: rgba(3, 53, 25, 0.986);
     top: 5px;
-    grid-area: header;
+    
 
     .imagenLogo {
 
@@ -12,15 +12,17 @@ header {
     }
 
     .tituloDelapagina {
+        display: flex;
+        justify-content: center;
 
         h1 {
             color: #cedc00;
         }
 
-        
-        
+
+
     }
-    
+
 
     .bg-body-tertiary {
         --bs-bg-opacity: 0;
@@ -28,6 +30,7 @@ header {
     }
 
 }
-element.style{
+
+element.style {
     width: 100%;
 }

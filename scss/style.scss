@@ -8,6 +8,7 @@
 @import "layout/grid";
 @import "pages/gpDeabudhabi";
 @import "components/carrusel";
+@import "pages/contact";
 
 
 
@@ -20,142 +21,23 @@
 
 
 
-main .encabezadosDeseccion h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 90px;
-
-}
-
-main .encabezadosDeseccion h2 {
-    display: flex;
-    justify-content: center;
-    margin: 100px 10px 100px 10px;
-
-
-}
-
-main .encabezadosDeseccion2 h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 90px;
-
-
-
-}
-
-main .encabezadosDeseccion h4 {
-    display: inline-flex;
-    justify-content: center;
-    margin-top: 100px;
-
-}
 
 
 
 
-main .box {
-    display: inline-flex;
-    background-color: gainsboro;
-    margin: 50px 50px 10px 50px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px gray;
-    overflow: hidden;
-    align-items: center;
-    width: 355px;
-    justify-content: center;
-    padding: 16px;
-
-}
-main .textoDelmain p {
-    display: flex;
-    text-align: left;
-    width: 720px;
-
-
-}
-main .imagenDelmain {
-    display: flex;
-    justify-content: left;
-    width: 639px;
-    height: 545px;
-    margin: -389px 1023px 117px 835px;
-
-
-}
-main .imagenDelmain2 {
-    display: flex;
-    justify-content: left;
-    width: 639px;
-    height: 545px;
-    margin: -662px 1102px 180px 1168px
-
-
-}
-main .imagenDelmain3 {
-    display: flex;
-    justify-content: left;
-    width: 639px;
-    height: 545px;
-    margin: -724px 1102px 180px 1500px
-
-
-}
-.tituloDelapagina {
-    display: flex;
-    justify-content: center;
-}
-
-main .boxNewslatter {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
-    justify-content: center;
-    background-color: gainsboro;
-    margin: 40px 580px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 15px gray;
-    overflow: hidden;
-    width: 700px;
-    max-width: 100%;
-    height: auto;
-}
-main .boxNewslatter .labelsDeformulario {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
-
-}
-section .boxNewslatter form {
-    margin: 90px 10px 10px 10px;
-    flex-flow: column;
-    justify-content: center;
 
 
 
-}
-
-section .boxNewslatter .formularioDecontacto .labelsDeformulario {
-
-    flex-flow: column;
-    justify-content: center;
-    flex-flow: column;
-    flex-direction: column;
-    margin: 10px 10px 10px 10px;
-    padding: 5px 5px 5px 5px;
-
-}
 
 
 
-main .boxNewslatter h2 {
-    text-align: center;
-    margin: 10px -287px 10px -23px
 
-}
+
+
+
+
+
+
 
 main .box img {
     width: 90px;
@@ -173,7 +55,7 @@ main h3 {
 
 /* Footer css */
 footer {
-    grid-area: pie;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
