@@ -64,6 +64,11 @@ element.style {
   align-content: center;
 }
 
+main .imagenDelmain4, main .imagenDelmain3, main .imagenDelmain2 {
+  display: flex;
+  justify-content: left;
+}
+
 main .ultimoGpdisputado .portadaDelhome img {
   width: 100%;
 }
@@ -92,22 +97,17 @@ main .imagenDelmain {
   object-fit: cover;
 }
 main .imagenDelmain2 {
-  display: flex;
-  justify-content: left;
   height: 341px;
   margin: -856px 1102px 410px 1098px;
   object-fit: cover;
 }
 main .imagenDelmain3 {
-  display: flex;
-  justify-content: left;
   height: 341px;
   margin: -750px 1102px 0px 1315px;
   object-fit: cover;
 }
 main .imagenDelmain4 {
   display: none;
-  justify-content: left;
   height: 341px;
   margin: -341px 1329px 149px 1613px;
   object-fit: cover;
@@ -305,10 +305,12 @@ footer {
   body main .imagenDelmain4 {
     display: none;
   }
+  body main .textoDelmain {
+    text-align: justify;
+  }
   body main .textoDelmain p {
     display: flex;
     width: 738px;
-    text-align: justify;
   }
   body main .encabezadosDeseccion h1,
   body main .tituloDelapagina h1,
@@ -534,10 +536,71 @@ main .noticias {
   display: block;
   margin: 0px 115px;
 }
-main .noticias .box .tarjeta {
+main .noticias .box {
+  display: flex;
+  flex-direction: row;
+  display: inline-flex;
+  margin: 20px 70px 20px 84px;
+}
+main .noticias .box .tarjetaNoticia1 {
+  display: flex;
   background-color: gainsboro;
   margin: 5px;
   border-radius: 5px;
+  align-content: center;
+  width: 500px;
+  margin: 20px 20px 20px 20px;
+  flex-direction: column;
+}
+main .noticias .box .tarjetaNoticia2 {
+  display: flex;
+  background-color: gainsboro;
+  margin: 5px;
+  border-radius: 5px;
+  align-content: center;
+  width: 500px;
+  margin: 20px 20px 20px 20px;
+  flex-direction: column;
+}
+main .noticias .box .tarjetaNoticia3 {
+  display: flex;
+  background-color: gainsboro;
+  margin: 5px;
+  border-radius: 5px;
+  align-content: center;
+  width: 500px;
+  margin: 20px 20px 20px 20px;
+  flex-direction: column;
+}
+main .noticias .box .tarjetaNoticia4 {
+  display: flex;
+  background-color: gainsboro;
+  margin: 5px;
+  border-radius: 5px;
+  align-content: center;
+  width: 500px;
+  margin: 20px 20px 20px 20px;
+  flex-direction: column;
+}
+main .noticias .box .tarjetaNoticia5 {
+  display: flex;
+  background-color: gainsboro;
+  margin: 5px;
+  border-radius: 5px;
+  align-content: center;
+  width: 500px;
+  margin: 20px 20px 20px 20px;
+  flex-direction: column;
+}
+main .noticias .box .tarjetaNoticia6 {
+  display: flex;
+  background-color: gainsboro;
+  margin: 5px;
+  border-radius: 5px;
+  align-content: center;
+  width: 500px;
+  margin: 20px 20px 20px 20px;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */

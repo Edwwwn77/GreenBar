@@ -1,6 +1,8 @@
 $color-cajas: gainsboro;
 $color-primario: #033519fb;
 
+
+
 header {
     grid-area: header;
 }
@@ -47,6 +49,7 @@ footer {
                     object-fit: cover;
                 }
             }
+
             .boxblog {
                 display: inline-flex;
                 background-color: $color-cajas;
@@ -57,7 +60,8 @@ footer {
                 width: 561px;
                 justify-content: center;
                 padding: 16px;
-            }  
+            }
+
             .textoDelmain p {
                 display: flex;
                 width: 388px;
@@ -134,6 +138,7 @@ footer {
 
         .listaPie1 ul,
         .listaPie2 ul {
+           
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -202,9 +207,13 @@ footer {
                 display: none;
             }
 
-            .textoDelmain p {
-                display: flex;
-                width: 738px;
+            .textoDelmain {
+                p {
+
+                    display: flex;
+                    width: 738px;
+                }
+
                 text-align: justify;
             }
 
@@ -218,10 +227,12 @@ footer {
                 margin-bottom: 20px;
             }
 
-            .box img {
-                display: flex;
-                align-items: center;
-                margin: 28px 114px;
+            .box {
+                img {
+                    display: flex;
+                    align-items: center;
+                    margin: 28px 114px;
+                }
             }
 
             .boxNewslatter {
@@ -245,9 +256,11 @@ footer {
         background-color: #07371c;
     }
 
-    .ultimoGpdisputado #img {
-        width: 100%;
-        height: 100%;
+    .ultimoGpdisputado {
+        #img {
+            width: 100%;
+            height: 100%;
+        }
     }
 
     footer {
@@ -272,11 +285,11 @@ footer {
 @media screen and (max-width: 425px) {
 
     body {
-        grid-template-areas: 
-            "header" 
-            "nav" 
-            "nav" 
-            "main" 
+        grid-template-areas:
+            "header"
+            "nav"
+            "nav"
+            "main"
             "pie";
         grid-template-columns: 150px;
         grid-template-rows: 100px 1fr 1fr auto 1fr;
@@ -307,10 +320,12 @@ footer {
                 }
             }
 
-            .textoDelmain p {
-                display: flex;
-                width: 385px;
-                text-align: justify;
+            .textoDelmain {
+                p {
+                    display: flex;
+                    width: 385px;
+                    text-align: justify;
+                }
             }
 
             .boxNewslatter {
@@ -333,9 +348,9 @@ footer {
                 }
             }
 
-            .imagenDelmain, 
-            .imagenDelmain2, 
-            .imagenDelmain3, 
+            .imagenDelmain,
+            .imagenDelmain2,
+            .imagenDelmain3,
             .imagenDelmain4 {
                 display: none;
             }
@@ -352,7 +367,8 @@ footer {
     }
 
     footer {
-        .listaPie1 ul, 
+
+        .listaPie1 ul,
         .listaPie2 ul {
             display: flex;
             flex-direction: column;
