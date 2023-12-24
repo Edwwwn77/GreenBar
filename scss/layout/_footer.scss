@@ -1,10 +1,13 @@
+
+$color-elementosfooter: aliceblue; 
+
 footer {
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(4, 65, 34);
-    color: aliceblue;
+    background-color: $color-primario;
+    color: $color-elementosfooter;
     flex-wrap: nowrap;
 
     .direccion {
@@ -49,7 +52,7 @@ footer {
     }
 
     a {
-        color: aliceblue;
+        color: $color-elementosfooter;
         text-decoration: none;
 
 

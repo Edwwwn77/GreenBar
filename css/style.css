@@ -15,16 +15,16 @@ ol {
 }
 
 body {
-  background-color: rgb(247, 255, 246);
+  background-color: white;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(247, 255, 246);
+  background-color: white;
 }
 
 header {
-  background-color: rgba(3, 53, 25, 0.986);
+  background-color: rgba(3, 53, 25, 0.9843137255);
   top: 5px;
 }
 header .imagenLogo {
@@ -56,7 +56,7 @@ element.style {
 
 .nav-link {
   color: #cedc00;
-  --bs-emphasis-color: rgb(255, 255, 255);
+  --bs-emphasis-color: $color-enfasisnav;
 }
 
 .nav {
@@ -124,7 +124,7 @@ main h3 {
 }
 main .box {
   display: inline-flex;
-  background-color: gainsboro;
+  background-color: color-cajas;
   margin: 50px 50px 10px 50px;
   border-radius: 5px;
   overflow: hidden;
@@ -168,7 +168,6 @@ footer {
     background-color: gainsboro;
     margin: 53px 67px;
     border-radius: 5px;
-    box-shadow: 5px 5px 15px gray;
     overflow: hidden;
   }
   body .box img {
@@ -193,7 +192,6 @@ footer {
     background-color: gainsboro;
     margin: 40px 134px 10px 260px;
     border-radius: 5px;
-    box-shadow: 5px 5px 15px gray;
     overflow: hidden;
     align-content: center;
     width: 500px;
@@ -223,7 +221,6 @@ footer {
     background-color: gainsboro;
     margin: 53px 13px;
     border-radius: 5px;
-    box-shadow: 5px 5px 15px gray;
     overflow: hidden;
   }
   body .box img {
@@ -257,7 +254,6 @@ footer {
     background-color: gainsboro;
     margin: 40px 134px 10px 134px;
     border-radius: 5px;
-    box-shadow: 5px 5px 15px gray;
     overflow: hidden;
     align-content: center;
     width: 500px;
@@ -271,7 +267,7 @@ footer {
   }
   .nav {
     flex-direction: column;
-    background-color: #07371c;
+    background-color: rgba(3, 53, 25, 0.9843137255);
   }
   .ultimoGpdisputado #img {
     width: 100%;
@@ -311,7 +307,6 @@ footer {
     background-color: gainsboro;
     margin: 13px -138px 32px 38px;
     border-radius: 5px;
-    box-shadow: 5px 5px 15px gray;
     overflow: hidden;
     align-items: center;
     justify-content: center;
@@ -324,7 +319,9 @@ footer {
     max-width: 100%;
     object-fit: cover;
   }
-  body .imagenDelmain, body .imagenDelmain2, body .imagenDelmain3 {
+  body .imagenDelmain,
+  body .imagenDelmain2,
+  body .imagenDelmain3 {
     display: none;
   }
   body .textoDelmain p {
@@ -337,7 +334,6 @@ footer {
     background-color: gainsboro;
     margin: 16px 215px 18px 11px;
     border-radius: 5px;
-    box-shadow: 5px 5px 15px gray;
     overflow: hidden;
     align-content: flex-end;
     width: 400px;
@@ -359,13 +355,15 @@ footer {
     max-width: 100%;
     object-fit: cover;
   }
-  footer .listaPie1 ul, footer .listaPie2 ul {
+  footer .listaPie1 ul,
+  footer .listaPie2 ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px 10px 10px 10px;
   }
-  footer .listaPie1 ul h2, footer .listaPie2 ul h2 {
+  footer .listaPie1 ul h2,
+  footer .listaPie2 ul h2 {
     display: flex;
     flex-direction: column;
   }
@@ -421,7 +419,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(4, 65, 34);
+  background-color: rgba(3, 53, 25, 0.9843137255);
   color: aliceblue;
   flex-wrap: nowrap;
 }

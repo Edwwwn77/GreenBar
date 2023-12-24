@@ -1,3 +1,8 @@
+$color-primario: #033519fb;
+$color-secundario: #cedc00;
+$color-enfasisnav: white;
+
+
 .navbar {
     --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.95);
     --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0);
@@ -6,8 +11,8 @@
 }
 
 .nav-link {
-    color: #cedc00;
-    --bs-emphasis-color: rgb(255, 255, 255);
+    color: $color-secundario;
+    --bs-emphasis-color: $color-enfasisnav;
 
 
 }
