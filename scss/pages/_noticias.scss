@@ -1,6 +1,21 @@
-.noticias {
-    background-color: $color-cajas;
-    margin: 5px;
-
-
+$color-cajas: gainsboro;
+main {
+    h3{
+        margin: 10px;
+    }
+    .noticias  {
+        display: flex;
+        align-items: center;
+        display: block;
+        margin: 0px 115px;
+    
+        .box {
+    
+            .tarjeta {
+                background-color: $color-cajas;
+                margin: 5px;
+                border-radius: 5px;
+            }
+        }
+    }
 }

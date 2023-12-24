@@ -1,3 +1,5 @@
+$color-cajas: gainsboro;
+
 main {
     .articulosDeblog {
         justify-content: center;
@@ -5,10 +7,10 @@ main {
     h3 {
         text-align: center;
     }
-    .box {
+    .boxblog {
         display: inline-flex;
-        background-color: color-cajas;
-        margin: 50px 50px 10px 50px;
+        background-color: $color-cajas;
+        margin: 50px 50px 10px 107px;
         border-radius: 5px;
         overflow: hidden;
         align-items: center;
