@@ -4,12 +4,7 @@
 
 }
 
-@mixin margin ($margin) {
-    display: flex;
-    justify-content: left;
-    margin: $margin;
-    object-fit: cover;
-}
+
 
 main {
     .ultimoGpdisputado {
