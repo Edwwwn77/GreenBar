@@ -4,6 +4,13 @@
 
 }
 
+@mixin margin ($margin) {
+    display: flex;
+    justify-content: left;
+    margin: $margin;
+    object-fit: cover;
+}
+
 main {
     .ultimoGpdisputado {
         .portadaDelhome {
@@ -50,36 +57,32 @@ main {
 
 
     .imagenDelmain {
-        display: flex;
-        justify-content: left;
+        @include margin(-389px 1023px 514px 881px);
         width: 639px;
         height: 341px;
-        margin: -389px 1023px 514px 881px;
         object-fit: cover;
 
     }
 
     .imagenDelmain2 {
-        @extend %imagenDelmain;
+        @include margin (-856px 1102px 410px 1098px);
         height: 341px;
-        margin: -856px 1102px 410px 1098px;
         object-fit: cover;
     }
 
 
     .imagenDelmain3 {
-        @extend %imagenDelmain;
+        @include margin (-750px 1102px 0px 1315px);
         height: 341px;
-        margin: -750px 1102px 0px 1315px;
         object-fit: cover;
 
     }
 
     .imagenDelmain4 {
-        @extend %imagenDelmain;
+        @include margin (-341px 1329px 149px 1613px);
         display: none;
         height: 341px;
-        margin: -341px 1329px 149px 1613px;
+
         object-fit: cover;
     }
 

@@ -64,11 +64,6 @@ element.style {
   align-content: center;
 }
 
-main .imagenDelmain4, main .imagenDelmain3, main .imagenDelmain2 {
-  display: flex;
-  justify-content: left;
-}
-
 main .ultimoGpdisputado .portadaDelhome img {
   width: 100%;
 }
@@ -91,25 +86,35 @@ main .encabezadosDeseccion h1 {
 main .imagenDelmain {
   display: flex;
   justify-content: left;
+  margin: -389px 1023px 514px 881px;
+  object-fit: cover;
   width: 639px;
   height: 341px;
-  margin: -389px 1023px 514px 881px;
   object-fit: cover;
 }
 main .imagenDelmain2 {
-  height: 341px;
+  display: flex;
+  justify-content: left;
   margin: -856px 1102px 410px 1098px;
+  object-fit: cover;
+  height: 341px;
   object-fit: cover;
 }
 main .imagenDelmain3 {
-  height: 341px;
+  display: flex;
+  justify-content: left;
   margin: -750px 1102px 0px 1315px;
+  object-fit: cover;
+  height: 341px;
   object-fit: cover;
 }
 main .imagenDelmain4 {
+  display: flex;
+  justify-content: left;
+  margin: -341px 1329px 149px 1613px;
+  object-fit: cover;
   display: none;
   height: 341px;
-  margin: -341px 1329px 149px 1613px;
   object-fit: cover;
 }
 main .linkReferencial {
@@ -527,80 +532,31 @@ footer a {
   text-decoration: none;
 }
 
-main h3 {
+main .noticias .box .tarjetaNoticia6, main .noticias .box .tarjetaNoticia5, main .noticias .box .tarjetaNoticia4, main .noticias .box .tarjetaNoticia3, main .noticias .box .tarjetaNoticia2, main .noticias .box .tarjetaNoticia1 {
+  display: flex;
+  background-color: gainsboro;
+  margin: 5px;
+  border-radius: 5px;
+  align-content: center;
+  width: 500px;
+  margin: 20px 20px 20px 20px;
+  flex-direction: column;
+}
+
+main h5 {
   margin: 10px;
 }
 main .noticias {
   display: flex;
   align-items: center;
   display: block;
-  margin: 0px 115px;
+  margin: 0px 57px;
 }
 main .noticias .box {
   display: flex;
   flex-direction: row;
   display: inline-flex;
-  margin: 20px 70px 20px 84px;
-}
-main .noticias .box .tarjetaNoticia1 {
-  display: flex;
-  background-color: gainsboro;
-  margin: 5px;
-  border-radius: 5px;
-  align-content: center;
-  width: 500px;
-  margin: 20px 20px 20px 20px;
-  flex-direction: column;
-}
-main .noticias .box .tarjetaNoticia2 {
-  display: flex;
-  background-color: gainsboro;
-  margin: 5px;
-  border-radius: 5px;
-  align-content: center;
-  width: 500px;
-  margin: 20px 20px 20px 20px;
-  flex-direction: column;
-}
-main .noticias .box .tarjetaNoticia3 {
-  display: flex;
-  background-color: gainsboro;
-  margin: 5px;
-  border-radius: 5px;
-  align-content: center;
-  width: 500px;
-  margin: 20px 20px 20px 20px;
-  flex-direction: column;
-}
-main .noticias .box .tarjetaNoticia4 {
-  display: flex;
-  background-color: gainsboro;
-  margin: 5px;
-  border-radius: 5px;
-  align-content: center;
-  width: 500px;
-  margin: 20px 20px 20px 20px;
-  flex-direction: column;
-}
-main .noticias .box .tarjetaNoticia5 {
-  display: flex;
-  background-color: gainsboro;
-  margin: 5px;
-  border-radius: 5px;
-  align-content: center;
-  width: 500px;
-  margin: 20px 20px 20px 20px;
-  flex-direction: column;
-}
-main .noticias .box .tarjetaNoticia6 {
-  display: flex;
-  background-color: gainsboro;
-  margin: 5px;
-  border-radius: 5px;
-  align-content: center;
-  width: 500px;
-  margin: 20px 20px 20px 20px;
-  flex-direction: column;
+  margin: 17px 30px 20px 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

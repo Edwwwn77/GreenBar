@@ -1,7 +1,18 @@
 $color-cajas: gainsboro;
 
+%tarjetasDenoticias {
+    display: flex;
+    background-color: $color-cajas;
+    margin: 5px;
+    border-radius: 5px;
+    align-content: center;
+    width: 500px;
+    margin: 20px 20px 20px 20px;
+    flex-direction: column;
+}
+
 main {
-    h3 {
+    h5 {
         margin: 10px;
     }
 
@@ -9,80 +20,40 @@ main {
         display: flex;
         align-items: center;
         display: block;
-        margin: 0px 115px;
+        margin: 0px 57px;
 
         .box {
 
             display: flex;
             flex-direction: row;
             display: inline-flex;
-            margin: 20px 70px 20px 84px;
+            margin: 17px 30px 20px 20px;
+
 
 
             .tarjetaNoticia1 {
-                display: flex;
-                background-color: gainsboro;
-                margin: 5px;
-                border-radius: 5px;
-                align-content: center;
-                width: 500px;
-                margin: 20px 20px 20px 20px;
-                flex-direction: column;
+                @extend %tarjetasDenoticias;
+
             }
 
             .tarjetaNoticia2 {
-                display: flex;
-                background-color: gainsboro;
-                margin: 5px;
-                border-radius: 5px;
-                align-content: center;
-                width: 500px;
-                margin: 20px 20px 20px 20px;
-                flex-direction: column;
+                @extend %tarjetasDenoticias;
             }
 
             .tarjetaNoticia3 {
-                display: flex;
-                background-color: gainsboro;
-                margin: 5px;
-                border-radius: 5px;
-                align-content: center;
-                width: 500px;
-                margin: 20px 20px 20px 20px;
-                flex-direction: column;
+                @extend %tarjetasDenoticias;
             }
 
             .tarjetaNoticia4 {
-                display: flex;
-                background-color: gainsboro;
-                margin: 5px;
-                border-radius: 5px;
-                align-content: center;
-                width: 500px;
-                margin: 20px 20px 20px 20px;
-                flex-direction: column;
+                @extend %tarjetasDenoticias;
             }
 
             .tarjetaNoticia5 {
-                display: flex;
-                background-color: gainsboro;
-                margin: 5px;
-                border-radius: 5px;
-                align-content: center;
-                width: 500px;
-                margin: 20px 20px 20px 20px;
-                flex-direction: column;
+                @extend %tarjetasDenoticias;
             }
 
             .tarjetaNoticia6 {
-                display: flex;
-                background-color: gainsboro;
-                margin: 5px;
-                border-radius: 5px;
-                align-content: center;
-                width: 500px;
-                margin: 20px 20px 20px 20px;
-                flex-direction: column;
+                @extend %tarjetasDenoticias;
             }
         }
     }
