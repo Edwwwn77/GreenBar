@@ -55,7 +55,7 @@ element.style {
 }
 
 .nav-link {
-  color: #cedc00;
+  color: #535719;
   --bs-emphasis-color: $color-enfasisnav;
 }
 
@@ -393,7 +393,7 @@ footer a {
 }
 
 main .carouselExampleCaptions {
-  color: #cedc00;
+  color: #535719;
 }
 
 main .ultimoGpdisputado .portadaDelhome img {
