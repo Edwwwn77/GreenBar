@@ -1,16 +1,27 @@
 
+// Base: Estilos básicos y reseteo de estilos
 @import "base/reset";
+
+// Abstracts: Mixins, variables y otros archivos abstractos
 @import "abstracts/mixins";
+
+// Base: Estilos relacionados con la tipografía
 @import "base/typography";
+
+// Layout: Componentes de la estructura general del sitio web
 @import "layout/header";
 @import "layout/navigation";
+@import "layout/grid";
+@import "layout/footer";
+
+// Componentes: Componentes reutilizables del sitio web
+@import "components/carrusel";
+
+// Páginas: Estilos específicos para cada página del sitio web
 @import "pages/home";
 @import "pages/blog";
-@import "layout/grid";
 @import "pages/gpDeabudhabi";
-@import "components/carrusel";
 @import "pages/contact";
-@import "layout/footer";
 @import "pages/noticias";
 
 
