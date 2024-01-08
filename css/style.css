@@ -191,6 +191,7 @@ main .noticias .box {
 }
 header {
   background-color: rgba(3, 53, 25, 0.9843137255);
+  opacity: 95%;
   top: 5px;
 }
 header .imagenLogo {
