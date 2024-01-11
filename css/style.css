@@ -42,7 +42,16 @@ main .textoDelmain p {
 main .encabezadosDeseccion h2 {
   display: flex;
   justify-content: center;
-  margin: 100px 10px 100px 10px;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  font-size: 300%;
+}
+main .encabezadosDeseccion h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  font-size: 150%;
 }
 main .encabezadosDeseccion h1 {
   display: flex;
@@ -125,10 +134,28 @@ main .boxblog img {
 main .ultimoGpdisputado img {
   width: 100%;
 }
+main .imagenDelgp img {
+  display: flex;
+  margin: -18px 238px 27px 1388px;
+  width: 50%;
+  height: 50%;
+}
+main .imagenDelgp2 img {
+  display: flex;
+  margin: -18px 238px 27px 1388px;
+  width: 50%;
+  height: 50%;
+}
+main .textosDelgp {
+  display: flex;
+  margin: -565px 4px 176px 17px;
+  flex-direction: column;
+}
 main .textosDelgp p {
   display: flex;
-  padding: 2px 2px 2px 2px;
-  align-items: flex-start;
+  margin: 2px 2px 2px 2px;
+  text-align: left;
+  width: 720px;
 }
 
 main section .boxNewslatter {
@@ -257,6 +284,30 @@ footer {
     grid-template-areas: "header header" "nav nav" "main main" "pie pie";
     grid-template-columns: 512px 512px;
     grid-template-rows: 150px 20px auto 1fr;
+  }
+  body main .imagenDelgp2 img {
+    display: flex;
+    margin: -18px 238px 27px 700px;
+    width: 50%;
+    height: 50%;
+  }
+  body main .textosDelgp {
+    display: flex;
+    margin: -418px -78px 176px 17px;
+    width: -127px;
+    flex-direction: column;
+  }
+  body main .textosDelgp p {
+    display: flex;
+    margin: 10px 66px 2px 2px;
+    text-align: left;
+    width: 632px;
+  }
+  body main .imagenDelgp img {
+    display: flex;
+    margin: 54px 238px 27px 700px;
+    width: 50%;
+    height: 50%;
   }
   body main .ultimoGpdisputado img {
     width: 100%;

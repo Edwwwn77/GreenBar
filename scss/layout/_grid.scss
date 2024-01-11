@@ -22,6 +22,7 @@ footer {
 
 
 }
+
 @media screen and (max-width: 1440px) {
 
     body {
@@ -34,13 +35,48 @@ footer {
         grid-template-rows: 150px 20px auto 1fr;
 
         main {
-            
-            .ultimoGpdisputado{
+            .imagenDelgp2 {
+                img {
+                    display: flex;
+                    margin: -18px 238px 27px 700px;
+                    width: 50%;
+                    height: 50%;
+                }
+
+            }
+
+            .textosDelgp {
+                display: flex;
+                margin: -418px -78px 176px 17px;
+                width: -127px;
+                flex-direction: column;
+
+                p {
+                    display: flex;
+                    margin: 10px 66px 2px 2px;
+                    text-align: left;
+                    width: 632px;
+                }
+
+            }
+
+            .imagenDelgp {
+                img {
+                    display: flex;
+                    margin: 54px 238px 27px 700px;
+                    width: 50%;
+                    height: 50%;
+                }
+
+            }
+
+            .ultimoGpdisputado {
                 img {
                     width: 100%;
-                   
+
                 }
             }
+
             .noticias {
                 display: flex;
                 align-items: center;
@@ -97,23 +133,22 @@ footer {
 
 
             }
-          
+
 
             .imagenDelmain2,
             .imagenDelmain3,
             .imagenDelmain4 {
                 display: none;
             }
-            
+
             .imagenDelmain2 {
                 display: flex;
                 justify-content: left;
                 width: 0px;
                 height: 557px;
                 margin: -759px 938px 31px 896px
-
-
             }
+
             .boxNewslatter {
                 display: flex;
                 background-color: gainsboro;
@@ -141,12 +176,15 @@ footer {
                 margin-top: 150px;
                 margin-bottom: 20px;
             }
-            .encabezadosDeseccion h1{
+
+            .encabezadosDeseccion h1 {
                 margin-top: 24px;
             }
-            .encabezadosDeseccion h2{
+
+            .encabezadosDeseccion h2 {
                 margin-top: 26px;
             }
+
             .box img {
                 display: flex;
                 align-items: center;
@@ -167,7 +205,7 @@ footer {
     .ultimoGpdisputado #img {
         width: 100%;
         height: 100%;
-        
+
     }
 
     footer {
@@ -522,6 +560,7 @@ footer {
                     border-radius: 5px;
                     box-shadow: 5px 5px 15px gray;
                     overflow: hidden;
+
                     img {
                         height: 290px;
                         width: 350px;
@@ -529,6 +568,7 @@ footer {
                         margin: 30px 20px 30px 2px;
                         object-fit: cover;
                     }
+
                     .tarjetaNoticia1 {
                         display: flex;
                         background-color: gainsboro;
@@ -539,6 +579,7 @@ footer {
                         margin: 20px 20px 20px 20px;
                         flex-direction: column;
                     }
+
                     .tarjetaNoticia2 {
                         display: flex;
                         background-color: gainsboro;
@@ -549,6 +590,7 @@ footer {
                         margin: 20px 20px 20px 20px;
                         flex-direction: column;
                     }
+
                     .tarjetaNoticia3 {
                         display: flex;
                         background-color: gainsboro;
@@ -559,6 +601,7 @@ footer {
                         margin: 20px 20px 20px 20px;
                         flex-direction: column;
                     }
+
                     .tarjetaNoticia4 {
                         display: flex;
                         background-color: gainsboro;
@@ -569,6 +612,7 @@ footer {
                         margin: 20px 20px 20px 20px;
                         flex-direction: column;
                     }
+
                     .tarjetaNoticia5 {
                         display: flex;
                         background-color: gainsboro;
@@ -579,6 +623,7 @@ footer {
                         margin: 20px 20px 20px 20px;
                         flex-direction: column;
                     }
+
                     .tarjetaNoticia6 {
                         display: flex;
                         background-color: gainsboro;
