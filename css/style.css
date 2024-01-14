@@ -106,6 +106,15 @@ main p {
   text-align: justify;
 }
 
+main .boxblog .parrafoBlog3, main .boxblog .parrafoBlog2, main .boxblog .parrafoBlog1 {
+  display: flex;
+  margin: 2px 2px 2px 2px;
+  flex-wrap: nowrap;
+  width: 327px;
+  height: 206px;
+  overflow: hidden;
+}
+
 main .articulosDeblog {
   justify-content: center;
 }
@@ -122,6 +131,10 @@ main .boxblog {
   width: 355px;
   justify-content: center;
   padding: 16px;
+  height: auto;
+}
+main .boxblog h3 {
+  text-align: center;
 }
 main .boxblog img {
   width: 733px;
@@ -133,6 +146,10 @@ main .boxblog img {
 
 main .ultimoGpdisputado img {
   width: 100%;
+}
+main .tablaDepuntuacion {
+  display: flex;
+  margin: 320px 2px 2px 2px;
 }
 main .imagenDelgp img {
   display: flex;
@@ -146,9 +163,14 @@ main .imagenDelgp2 img {
   width: 50%;
   height: 50%;
 }
+main .imagenDelgp3 img {
+  display: flex;
+  margin: -545px 2px 2px 945px;
+  width: 17%;
+}
 main .textosDelgp {
   display: flex;
-  margin: -565px 4px 176px 17px;
+  margin: -522px 4px 176px 17px;
   flex-direction: column;
 }
 main .textosDelgp p {

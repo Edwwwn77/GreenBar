@@ -1,3 +1,4 @@
+
 main {
     .ultimoGpdisputado {
         img {
@@ -7,6 +8,11 @@ main {
 
 
 
+    }
+
+    .tablaDepuntuacion {
+        display: flex;
+        margin: 320px 2px 2px 2px ;
     }
 
     .imagenDelgp {
@@ -21,6 +27,7 @@ main {
 
 
     }
+
     .imagenDelgp2 {
         img {
             display: flex;
@@ -33,9 +40,22 @@ main {
 
 
     }
+    .imagenDelgp3 {
+        img {
+            display: flex;
+            margin: -545px 2px 2px 945px;
+            width: 17%;
+            
+        }
+
+
+
+
+    }
+
     .textosDelgp {
         display: flex;
-        margin: -565px 4px 176px 17px;
+        margin: -522px 4px 176px 17px;
         flex-direction: column;
 
         p {
