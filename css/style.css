@@ -106,7 +106,7 @@ main p {
   text-align: justify;
 }
 
-main .boxblog .parrafoBlog3, main .boxblog .parrafoBlog2, main .boxblog .parrafoBlog1 {
+main .articulosDeblog .boxblog .parrafoBlog3, main .articulosDeblog .boxblog .parrafoBlog2, main .articulosDeblog .boxblog .parrafoBlog1 {
   display: flex;
   margin: 2px 2px 2px 2px;
   flex-wrap: nowrap;
@@ -121,7 +121,11 @@ main .articulosDeblog {
 main h3 {
   text-align: center;
 }
-main .boxblog {
+main .articulosDeblog {
+  display: flex;
+  margin: 2px 2px 2px 2px;
+}
+main .articulosDeblog .boxblog {
   display: inline-flex;
   background-color: gainsboro;
   margin: 50px 50px 10px 107px;
@@ -133,10 +137,10 @@ main .boxblog {
   padding: 16px;
   height: auto;
 }
-main .boxblog h3 {
+main .articulosDeblog .boxblog h3 {
   text-align: center;
 }
-main .boxblog img {
+main .articulosDeblog .boxblog img {
   width: 733px;
   align-content: center;
   padding: -105px 5px 5px 5px;
