@@ -1,55 +1,95 @@
-$color-cajas:gainsboro;
+$color-cajas: gainsboro;
 
+%imagenDelnewslatter {
+    display: flex;
+    height: 376px;
+}
 
 main {
-    section {
-        .boxNewslatter {
+    .imagenesParacontacto {
+        display: flex;
+        height: 50%;
+        margin: 73px 2px 2px 2px;
+        .imagenDelnewslatter4 {
+            height: 50%;
+            width: 50%;
+            margin: -239px 2px 2px -937px;
 
+        }
+
+        .imagenDelnewslatter3 {
+            @extend %imagenDelnewslatter;
+            margin: -628px 2px 116px 12px;
+
+        }
+
+        .imagenDelnewslatter2 {
+            @extend %imagenDelnewslatter;
+            margin: -628px 2px 109px 24px;
+
+        }
+
+        .imagenDelnewslatter1 {
+            @extend %imagenDelnewslatter;
+            margin: -628px -8px 109px 812px;
+
+
+        }
+    }
+
+}
+
+
+
+
+
+section {
+    .boxNewslatter {
+
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        justify-content: center;
+        background-color: $color-cajas;
+        margin: 40px 56px;
+        padding: 64px;
+        border-radius: 5px;
+        overflow: hidden;
+        width: 700px;
+        max-width: 100%;
+        height: auto;
+
+        h2 {
+
+            text-align: center;
+            margin: -22px -287px 10px -23px
+        }
+
+        .formularioDecontacto {
             display: flex;
-            flex-direction: row;
-            align-content: flex-end;
-            justify-content: center;
-            background-color: $color-cajas;
-            margin: 40px 555px;
-            padding: 64px;
-            border-radius: 5px;
-            overflow: hidden;
-            width: 700px;
-            max-width: 100%;
-            height: auto;
+            margin: 41px 2px 2px 2px;
+            padding: 0px 2px 2px 2px;
 
-            h2 {
-
-                text-align: center;
-                margin: -22px -287px 10px -23px
-            }
-
-            .formularioDecontacto {
+            .labelsDeformulario {
                 display: flex;
-                margin: 41px 2px 2px 2px;
-                padding: 0px 2px 2px 2px;
-
-                .labelsDeformulario {
-                    display: flex;
-                    flex-direction: column;
-                    align-content: flex-end;
-                    flex-flow: column;
-                    justify-content: center;
-                    flex-flow: column;
-                    flex-direction: column;
-                    margin: 20px 10px 10px 10px;
-                    padding: 5px 5px 5px 5px;
-                    font-size: larger;
-                    font-weight: 500;
-                }
+                flex-direction: column;
+                align-content: flex-end;
+                flex-flow: column;
+                justify-content: center;
+                flex-flow: column;
+                flex-direction: column;
+                margin: 20px 10px 10px 10px;
+                padding: 5px 5px 5px 5px;
+                font-size: larger;
+                font-weight: 500;
             }
-
-
-
         }
 
 
 
-
     }
+
+
+
+
 }

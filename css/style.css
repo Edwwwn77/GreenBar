@@ -137,6 +137,12 @@ main .articulosDeblog .boxblog {
   padding: 16px;
   height: auto;
 }
+main .articulosDeblog .boxblog .tarjeta {
+  margin: 2px 2px 2px 2px;
+}
+main .articulosDeblog .boxblog .tarjeta h5 {
+  margin: 2px 2px 2px 27px;
+}
 main .articulosDeblog .boxblog h3 {
   text-align: center;
 }
@@ -184,13 +190,38 @@ main .textosDelgp p {
   width: 720px;
 }
 
-main section .boxNewslatter {
+main .imagenesParacontacto .imagenDelnewslatter1, main .imagenesParacontacto .imagenDelnewslatter2, main .imagenesParacontacto .imagenDelnewslatter3 {
+  display: flex;
+  height: 376px;
+}
+
+main .imagenesParacontacto {
+  display: flex;
+  height: 50%;
+  margin: 73px 2px 2px 2px;
+}
+main .imagenesParacontacto .imagenDelnewslatter4 {
+  height: 50%;
+  width: 50%;
+  margin: -239px 2px 2px -937px;
+}
+main .imagenesParacontacto .imagenDelnewslatter3 {
+  margin: -628px 2px 116px 12px;
+}
+main .imagenesParacontacto .imagenDelnewslatter2 {
+  margin: -628px 2px 109px 24px;
+}
+main .imagenesParacontacto .imagenDelnewslatter1 {
+  margin: -628px -8px 109px 812px;
+}
+
+section .boxNewslatter {
   display: flex;
   flex-direction: row;
   align-content: flex-end;
   justify-content: center;
   background-color: gainsboro;
-  margin: 40px 555px;
+  margin: 40px 56px;
   padding: 64px;
   border-radius: 5px;
   overflow: hidden;
@@ -198,16 +229,16 @@ main section .boxNewslatter {
   max-width: 100%;
   height: auto;
 }
-main section .boxNewslatter h2 {
+section .boxNewslatter h2 {
   text-align: center;
   margin: -22px -287px 10px -23px;
 }
-main section .boxNewslatter .formularioDecontacto {
+section .boxNewslatter .formularioDecontacto {
   display: flex;
   margin: 41px 2px 2px 2px;
   padding: 0px 2px 2px 2px;
 }
-main section .boxNewslatter .formularioDecontacto .labelsDeformulario {
+section .boxNewslatter .formularioDecontacto .labelsDeformulario {
   display: flex;
   flex-direction: column;
   align-content: flex-end;
@@ -234,6 +265,10 @@ main .noticias .box .tarjetaNoticia6, main .noticias .box .tarjetaNoticia5, main
 
 main h5 {
   margin: 10px;
+}
+main .portadaDenoticias img {
+  display: flex;
+  width: 100%;
 }
 main .noticias {
   display: flex;
@@ -313,13 +348,20 @@ footer {
   }
   body main .imagenDelgp2 img {
     display: flex;
-    margin: -18px 238px 27px 700px;
+    margin: -18px 238px 27px 720px;
     width: 50%;
     height: 50%;
   }
+  body main .portadaDeblog img {
+    display: flex;
+    width: 100%;
+  }
+  body main .ultimoGpdisputado {
+    margin-top: 2px;
+  }
   body main .textosDelgp {
     display: flex;
-    margin: -418px -78px 176px 17px;
+    margin: -427px 0px 176px 17px;
     width: -127px;
     flex-direction: column;
   }
@@ -331,7 +373,16 @@ footer {
   }
   body main .imagenDelgp img {
     display: flex;
-    margin: 54px 238px 27px 700px;
+    margin: 54px 238px 27px 720px;
+    width: 50%;
+    height: 50%;
+  }
+  body main .imagenDelgp3 {
+    display: none;
+  }
+  body main .imagenDelgp3 img {
+    display: flex;
+    margin: 54px 238px 27px 720px;
     width: 50%;
     height: 50%;
   }
@@ -347,7 +398,7 @@ footer {
   body main .noticias .box {
     display: inline-flex;
     background-color: gainsboro;
-    margin: 53px 191px;
+    margin: 38px 69px;
     border-radius: 5px;
     box-shadow: 5px 5px 15px gray;
     overflow: hidden;
@@ -356,16 +407,39 @@ footer {
     max-width: 100%;
     object-fit: cover;
   }
+  body main .portadaDenoticias img {
+    display: flex;
+    width: 100%;
+  }
+  body main .imagenesParacontacto {
+    display: flex;
+    margin: 125px 2px 2px -270px;
+  }
+  body main .imagenesParacontacto .imagenDelnewslatter1 {
+    margin: -628px -8px 109px 812px;
+  }
+  body main .imagenesParacontacto .imagenDelnewslatter2 {
+    margin: -628px 2px 109px 24px;
+  }
+  body main .imagenesParacontacto .imagenDelnewslatter3 {
+    margin: -628px 2px 116px 12px;
+  }
+  body main .imagenesParacontacto .imagenDelnewslatter4 {
+    height: 50%;
+    width: 50%;
+    margin: -239px 2px 2px -937px;
+  }
   body main .boxblog {
     display: inline-flex;
     background-color: gainsboro;
-    margin: 50px 50px 10px 233px;
+    margin: 50px 30px 35px 43px;
     border-radius: 5px;
     overflow: hidden;
     align-items: center;
-    width: 561px;
+    width: 428px;
     justify-content: center;
     padding: 16px;
+    height: auto;
   }
   body main .boxblog img {
     width: 733px;
@@ -384,7 +458,7 @@ footer {
     justify-content: left;
     width: 0px;
     height: 552px;
-    margin: -579px 1090px 204px 554px;
+    margin: -579px 1090px 204px 756px;
   }
   body main .imagenDelmain2,
   body main .imagenDelmain3,
@@ -396,12 +470,16 @@ footer {
     justify-content: left;
     width: 0px;
     height: 557px;
-    margin: -759px 938px 31px 896px;
+    margin: -759px 938px 31px 1104px;
+  }
+  body main .tablaDepuntuacion {
+    display: flex;
+    margin: -133px 2px 2px 2px;
   }
   body main .boxNewslatter {
     display: flex;
     background-color: gainsboro;
-    margin: 40px 134px 10px 260px;
+    margin: 40px 134px 10px 23px;
     border-radius: 5px;
     overflow: hidden;
     align-content: center;
@@ -486,10 +564,38 @@ footer {
     max-width: 100%;
     object-fit: cover;
   }
-  body main .boxblog {
+  body main .imagenDelgp img {
+    display: flex;
+    margin: 54px 238px 27px 666px;
+    width: 35%;
+    height: 50%;
+  }
+  body main .imagenDelgp2 img {
+    display: flex;
+    margin: -18px 238px 27px 667px;
+    width: 35%;
+    height: 50%;
+  }
+  body main .textosDelgp {
+    display: flex;
+    margin: -237px 0px 176px 17px;
+    width: -127px;
+    flex-direction: column;
+  }
+  body main .textosDelgp p {
+    display: flex;
+    margin: 10px 66px 2px 2px;
+    text-align: left;
+    width: 587px;
+  }
+  body main .articulosDeblog {
+    display: flex;
+    margin: 2px -17px 38px 60px;
+  }
+  body main .articulosDeblog .boxblog {
     display: inline-flex;
     background-color: gainsboro;
-    margin: 50px 50px 10px 233px;
+    margin: 50px 50px 10px -35px;
     border-radius: 5px;
     overflow: hidden;
     align-items: center;
@@ -497,7 +603,39 @@ footer {
     justify-content: center;
     padding: 16px;
   }
-  body main .boxblog img {
+  body main .articulosDeblog .boxblog .tarjeta {
+    margin: 2px 2px 2px 2px;
+  }
+  body main .articulosDeblog .boxblog .tarjeta h5 {
+    margin: 2px 2px 2px 38px;
+    height: 42px;
+    width: 289px;
+  }
+  body main .articulosDeblog .boxblog .parrafoBlog1 {
+    display: flex;
+    margin: 2px 2px 16px 26px;
+    flex-wrap: nowrap;
+    width: 315px;
+    height: 198px;
+    overflow: hidden;
+  }
+  body main .articulosDeblog .boxblog .parrafoBlog2 {
+    display: flex;
+    margin: 2px 2px 16px 26px;
+    flex-wrap: nowrap;
+    width: 315px;
+    height: 198px;
+    overflow: hidden;
+  }
+  body main .articulosDeblog .boxblog .parrafoBlog3 {
+    display: flex;
+    margin: 2px 2px 16px 26px;
+    flex-wrap: nowrap;
+    width: 315px;
+    height: 198px;
+    overflow: hidden;
+  }
+  body main .articulosDeblog .boxblog img {
     width: 733px;
     align-content: center;
     padding: -105px 5px 5px 5px;

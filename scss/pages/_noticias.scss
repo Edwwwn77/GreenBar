@@ -15,7 +15,12 @@ main {
     h5 {
         margin: 10px;
     }
-
+    .portadaDenoticias {
+        img {
+            display: flex;
+            width: 100%;
+        }
+    }
     .noticias {
         display: flex;
         align-items: center;
