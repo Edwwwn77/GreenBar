@@ -115,13 +115,17 @@ footer {
                     background-color: gainsboro;
                     margin: 38px 69px;
                     border-radius: 5px;
-                    box-shadow: 5px 5px 15px gray;
                     overflow: hidden;
 
-                    img {
-                        max-width: 100%;
-                        object-fit: cover;
+                    .tarjetaNoticias1 {
+                        img {
+                            max-width: 100%;
+                            object-fit: cover;
+
+                        }
+
                     }
+
                 }
             }
 
@@ -248,51 +252,56 @@ footer {
                 margin-top: 26px;
             }
 
-            .box img {
-                display: flex;
-                align-items: center;
-                margin: 28px 114px;
+            .box {
+                img {
+                    display: flex;
+                    align-items: center;
+                    margin: 28px -18px;
+                    overflow: hidden;
+                    width: 108%;
+                }
             }
-        }
-    }
-
-    .tituloDelapagina {
-        padding: 30px;
-    }
-
-    .nav {
-        flex-direction: column;
-        background-color: #07371c;
-    }
-
-    .ultimoGpdisputado #img {
-        width: 100%;
-        height: 100%;
-
-    }
-
-    footer {
-
-        .listaPie1 ul,
-        .listaPie2 ul {
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 10px 10px 10px 10px;
-
-            h2 {
-                display: flex;
-                flex-direction: column;
-            }
-        }
-
-        .direccion2 {
-            display: flex;
-            margin: -157px 0px 0px 0px;
         }
     }
 }
+
+.tituloDelapagina {
+    padding: 30px;
+}
+
+.nav {
+    flex-direction: column;
+    background-color: #07371c;
+}
+
+.ultimoGpdisputado #img {
+    width: 100%;
+    height: 100%;
+
+}
+
+footer {
+
+    .listaPie1 ul,
+    .listaPie2 ul {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+
+        h2 {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .direccion2 {
+        display: flex;
+        margin: -157px 0px 0px 0px;
+    }
+}
+
 
 @media screen and (max-width: 1024px) {
 
@@ -315,206 +324,239 @@ footer {
                 .box {
                     display: inline-flex;
                     background-color: gainsboro;
-                    margin: 53px 191px;
+                    margin: 53px 7px;
                     border-radius: 5px;
-                    box-shadow: 5px 5px 15px gray;
+                    background-color: gainsboro;
                     overflow: hidden;
+                    width: 458px;
+                    height: 458px;
+
+                    .tarjetaNoticia1,
+                    .tarjetaNoticia2,
+                    .tarjetaNoticia3,
+                    .tarjetaNoticia4,
+                    .tarjetaNoticia5,
+                    .tarjetaNoticia6,
+                    {
+                    display: flex;
+                    background-color: gainsboro;
+                    margin: 5px;
+                    border-radius: 5px;
+                    align-content: center;
+                    width: 500px;
+                    margin: 20px 20px 20px 20px;
+                    flex-direction: column;
 
                     img {
                         max-width: 100%;
                         object-fit: cover;
-                    }
-                }
-            }
-
-            .imagenDelgp {
-                img {
-                    display: flex;
-                    margin: 54px 238px 27px 666px;
-                    width: 35%;
-                    height: 50%;
-                }
-
-            }
-
-            .imagenDelgp2 {
-                img {
-                    display: flex;
-                    margin: -18px 238px 27px 667px;
-                    width: 35%;
-                    height: 50%;
-                }
-
-            }
-
-            .textosDelgp {
-                display: flex;
-                margin: -237px 0px 176px 17px;
-                width: -127px;
-                flex-direction: column;
-
-                p {
-                    display: flex;
-                    margin: 10px 66px 2px 2px;
-                    text-align: left;
-                    width: 587px;
-                }
-            }
-
-            .articulosDeblog {
-                display: flex;
-                margin: 2px -17px 38px 60px;
-
-
-                .boxblog {
-                    display: inline-flex;
-                    background-color: $color-cajas;
-                    margin: 50px 50px 10px -35px;
-                    border-radius: 5px;
-                    overflow: hidden;
-                    align-items: center;
-                    width: 561px;
-                    justify-content: center;
-                    padding: 16px;
-
-                    .tarjeta {
-                        margin: 2px 2px 2px 2px;
-
-                        h5 {
-                            margin: 2px 2px 2px 38px;
-                            height: 42px;
-                            width: 289px;
-                        }
-                    }
-
-                    .parrafoBlog1 {
-                        display: flex;
-                        margin: 2px 2px 16px 26px;
-                        flex-wrap: nowrap;
-                        width: 315px;
-                        height: 198px;
+                        width: 110%;
+                        height: 50%;
+                        margin: 2px 2px 2px 0px;
                         overflow: hidden;
                     }
-                    .parrafoBlog2 {
-                        display: flex;
-                        margin: 2px 2px 16px 26px;
-                        flex-wrap: nowrap;
-                        width: 315px;
-                        height: 198px;
-                        overflow: hidden;
-                    }
-                    .parrafoBlog3 {
-                        display: flex;
-                        margin: 2px 2px 16px 26px;
-                        flex-wrap: nowrap;
-                        width: 315px;
-                        height: 198px;
-                        overflow: hidden;
-                    }
-                    img {
-                        width: 733px;
-                        align-content: center;
-                        padding: -105px 5px 5px 5px;
-                        margin: 54px -202px 31px -165px;
-                        object-fit: contain;
-                    }
                 }
+
+
             }
+        }
 
-
-            .textoDelmain p {
+        .imagenDelgp {
+            img {
                 display: flex;
-                width: 388px;
-                text-align: justify;
+                margin: 54px 238px 27px 666px;
+                width: 35%;
+                height: 50%;
             }
 
-            .imagenDelmain {
+        }
+
+        .imagenDelgp2 {
+            img {
                 display: flex;
-                justify-content: left;
-                width: 0px;
-                height: 805px;
-                margin: -747px 1090px 63px 554px;
-
-
+                margin: -18px 238px 27px 667px;
+                width: 35%;
+                height: 50%;
             }
 
-            .imagenDelmain2,
-            .imagenDelmain3,
-            .imagenDelmain4 {
-                display: none;
-            }
+        }
 
-            .boxNewslatter {
+        .textosDelgp {
+            display: flex;
+            margin: -237px 0px 176px 17px;
+            width: -127px;
+            flex-direction: column;
+
+            p {
                 display: flex;
-                background-color: gainsboro;
-                margin: 40px 134px 10px 260px;
+                margin: 10px 66px 2px 2px;
+                text-align: left;
+                width: 587px;
+            }
+        }
+
+        .articulosDeblog {
+            display: flex;
+            margin: 28px 0px 33px 76px;
+
+
+            .boxblog {
+                display: inline-flex;
+                background-color: $color-cajas;
+                margin: 50px 50px 10px -35px;
                 border-radius: 5px;
                 overflow: hidden;
-                align-content: center;
-                width: 500px;
-                height: 500px;
-                flex-direction: column;
-                flex-wrap: wrap;
+                align-items: center;
+                width: 561px;
+                justify-content: center;
+                padding: 16px;
 
-                h2 {
-                    text-align: center;
-                    margin: -51px -527px 340px -237px;
+                .tarjeta {
+                    margin: 2px 2px 2px 2px;
+
+                    h5 {
+                        margin: 2px 2px 2px 38px;
+                        height: 42px;
+                        width: 289px;
+                    }
+                }
+
+                .parrafoBlog1 {
+                    display: flex;
+                    margin: 2px 2px 16px 26px;
+                    flex-wrap: nowrap;
+                    width: 315px;
+                    height: 198px;
+                    overflow: hidden;
+                }
+
+                .parrafoBlog2 {
+                    display: flex;
+                    margin: 2px 2px 16px 26px;
+                    flex-wrap: nowrap;
+                    width: 315px;
+                    height: 198px;
+                    overflow: hidden;
+                }
+
+                .parrafoBlog3 {
+                    display: flex;
+                    margin: 2px 2px 16px 26px;
+                    flex-wrap: nowrap;
+                    width: 315px;
+                    height: 198px;
+                    overflow: hidden;
+                }
+
+                img {
+                    width: 733px;
+                    align-content: center;
+                    padding: -105px 5px 5px 5px;
+                    margin: 54px -202px 31px -165px;
+                    object-fit: contain;
                 }
             }
-
-            .encabezadosDeseccion h1,
-            .tituloDelapagina h1,
-            .tituloDelapagina h2,
-            .encabezadosDeseccion h2 {
-                display: flex;
-                justify-content: center;
-                margin-top: 40px;
-                margin-bottom: 20px;
-            }
-
-            .box img {
-                display: flex;
-                align-items: center;
-                margin: 28px 114px;
-            }
         }
-    }
 
-    .tituloDelapagina {
-        padding: 30px;
-    }
 
-    .nav {
-        flex-direction: column;
-        background-color: #07371c;
-    }
-
-    .ultimoGpdisputado #img {
-        width: 100%;
-        height: 100%;
-    }
-
-    footer {
-
-        .listaPie1 ul,
-        .listaPie2 ul {
-
+        .textoDelmain p {
             display: flex;
+            width: 388px;
+            text-align: justify;
+        }
+
+        .imagenDelmain {
+            display: flex;
+            justify-content: left;
+            width: 0px;
+            height: 805px;
+            margin: -747px 1090px 63px 554px;
+
+
+        }
+
+        .imagenDelmain2,
+        .imagenDelmain3,
+        .imagenDelmain4 {
+            display: none;
+        }
+
+        .boxNewslatter {
+            display: flex;
+            background-color: gainsboro;
+            margin: 40px 134px 10px 22px;
+            border-radius: 5px;
+            overflow: hidden;
+            align-content: center;
+            width: 500px;
+            height: 500px;
             flex-direction: column;
-            align-items: center;
-            padding: 10px 10px 10px 10px;
+            flex-wrap: wrap;
 
             h2 {
-                display: flex;
-                flex-direction: column;
+                text-align: center;
+                margin: -51px -527px 340px -237px;
             }
         }
-
-        .direccion2 {
+        .imagenesParacontacto {
             display: flex;
-            margin: -157px 0px 0px 0px;
+            margin: 125px 2px 2px -270px;
+            .imagenDelnewslatter1 {
+                margin: -628px -8px 109px 812px;
+            }
+        }
+        .encabezadosDeseccion h1,
+        .tituloDelapagina h1,
+        .tituloDelapagina h2,
+        .encabezadosDeseccion h2 {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .box img {
+            display: flex;
+            align-items: center;
+            margin: 28px 114px;
         }
     }
+}
+.tituloDelapagina {
+    padding: 30px;
+}
+
+.nav {
+    flex-direction: column;
+    background-color: #07371c;
+}
+
+.ultimoGpdisputado #img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+
+    .listaPie1 ul,
+    .listaPie2 ul {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+
+        h2 {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .direccion2 {
+        display: flex;
+        margin: -157px 0px 0px 0px;
+    }
+}
 }
 
 
@@ -596,7 +638,7 @@ footer {
                 img {
                     display: flex;
                     align-items: center;
-                    margin: 28px 114px;
+                    margin: 28px 2px;
                 }
             }
 

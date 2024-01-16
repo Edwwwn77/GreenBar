@@ -400,10 +400,9 @@ footer {
     background-color: gainsboro;
     margin: 38px 69px;
     border-radius: 5px;
-    box-shadow: 5px 5px 15px gray;
     overflow: hidden;
   }
-  body main .noticias .box img {
+  body main .noticias .box .tarjetaNoticias1 img {
     max-width: 100%;
     object-fit: cover;
   }
@@ -510,36 +509,42 @@ footer {
   body main .box img {
     display: flex;
     align-items: center;
-    margin: 28px 114px;
-  }
-  .tituloDelapagina {
-    padding: 30px;
-  }
-  .nav {
-    flex-direction: column;
-    background-color: #07371c;
-  }
-  .ultimoGpdisputado #img {
-    width: 100%;
-    height: 100%;
-  }
-  footer .listaPie1 ul,
-  footer .listaPie2 ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 10px 10px 10px;
-  }
-  footer .listaPie1 ul h2,
-  footer .listaPie2 ul h2 {
-    display: flex;
-    flex-direction: column;
-  }
-  footer .direccion2 {
-    display: flex;
-    margin: -157px 0px 0px 0px;
+    margin: 28px -18px;
+    overflow: hidden;
+    width: 108%;
   }
 }
+.tituloDelapagina {
+  padding: 30px;
+}
+
+.nav {
+  flex-direction: column;
+  background-color: #07371c;
+}
+
+.ultimoGpdisputado #img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .listaPie1 ul,
+footer .listaPie2 ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+footer .listaPie1 ul h2,
+footer .listaPie2 ul h2 {
+  display: flex;
+  flex-direction: column;
+}
+footer .direccion2 {
+  display: flex;
+  margin: -157px 0px 0px 0px;
+}
+
 @media screen and (max-width: 1024px) {
   body {
     grid-template-areas: "header header" "nav nav" "main main" "pie pie";
@@ -555,14 +560,40 @@ footer {
   body main .noticias .box {
     display: inline-flex;
     background-color: gainsboro;
-    margin: 53px 191px;
+    margin: 53px 7px;
     border-radius: 5px;
-    box-shadow: 5px 5px 15px gray;
+    background-color: gainsboro;
     overflow: hidden;
+    width: 458px;
+    height: 458px;
   }
-  body main .noticias .box img {
+  body main .noticias .box .tarjetaNoticia1,
+  body main .noticias .box .tarjetaNoticia2,
+  body main .noticias .box .tarjetaNoticia3,
+  body main .noticias .box .tarjetaNoticia4,
+  body main .noticias .box .tarjetaNoticia5,
+  body main .noticias .box .tarjetaNoticia6 {
+    display: flex;
+    background-color: gainsboro;
+    margin: 5px;
+    border-radius: 5px;
+    align-content: center;
+    width: 500px;
+    margin: 20px 20px 20px 20px;
+    flex-direction: column;
+  }
+  body main .noticias .box .tarjetaNoticia1 img,
+  body main .noticias .box .tarjetaNoticia2 img,
+  body main .noticias .box .tarjetaNoticia3 img,
+  body main .noticias .box .tarjetaNoticia4 img,
+  body main .noticias .box .tarjetaNoticia5 img,
+  body main .noticias .box .tarjetaNoticia6 img {
     max-width: 100%;
     object-fit: cover;
+    width: 110%;
+    height: 50%;
+    margin: 2px 2px 2px 0px;
+    overflow: hidden;
   }
   body main .imagenDelgp img {
     display: flex;
@@ -590,7 +621,7 @@ footer {
   }
   body main .articulosDeblog {
     display: flex;
-    margin: 2px -17px 38px 60px;
+    margin: 28px 0px 33px 76px;
   }
   body main .articulosDeblog .boxblog {
     display: inline-flex;
@@ -662,7 +693,7 @@ footer {
   body main .boxNewslatter {
     display: flex;
     background-color: gainsboro;
-    margin: 40px 134px 10px 260px;
+    margin: 40px 134px 10px 22px;
     border-radius: 5px;
     overflow: hidden;
     align-content: center;
@@ -674,6 +705,13 @@ footer {
   body main .boxNewslatter h2 {
     text-align: center;
     margin: -51px -527px 340px -237px;
+  }
+  body main .imagenesParacontacto {
+    display: flex;
+    margin: 125px 2px 2px -270px;
+  }
+  body main .imagenesParacontacto .imagenDelnewslatter1 {
+    margin: -628px -8px 109px 812px;
   }
   body main .encabezadosDeseccion h1,
   body main .tituloDelapagina h1,
@@ -776,7 +814,7 @@ footer {
   body main .box img {
     display: flex;
     align-items: center;
-    margin: 28px 114px;
+    margin: 28px 2px;
   }
   body main .boxNewslatter {
     display: flex;
