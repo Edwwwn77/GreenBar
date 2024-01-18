@@ -10,6 +10,7 @@ main {
         display: flex;
         height: 50%;
         margin: 73px 2px 2px 2px;
+
         .imagenDelnewslatter4 {
             height: 50%;
             width: 50%;
@@ -18,21 +19,25 @@ main {
         }
 
         .imagenDelnewslatter3 {
-            @extend %imagenDelnewslatter;
-            margin: -628px 2px 116px 12px;
+            img {
+                @extend %imagenDelnewslatter;
+                margin: -628px 2px 116px 12px;
+            }
 
         }
 
         .imagenDelnewslatter2 {
-            @extend %imagenDelnewslatter;
-            margin: -628px 2px 109px 24px;
-
+            img {
+                @extend %imagenDelnewslatter;
+                margin: -628px 2px 109px 24px;
+            }
         }
 
         .imagenDelnewslatter1 {
-            @extend %imagenDelnewslatter;
-            margin: -628px -8px 109px 812px;
-
+            img {
+                @extend %imagenDelnewslatter;
+                margin: -628px -8px 109px 812px;
+            }
 
         }
     }
