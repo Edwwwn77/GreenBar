@@ -366,6 +366,7 @@ footer {
                     margin: 54px 238px 27px 666px;
                     width: 35%;
                     height: 50%;
+                    display: none;
                 }
 
             }
@@ -376,28 +377,31 @@ footer {
                     margin: -18px 238px 27px 667px;
                     width: 35%;
                     height: 50%;
+                    display: none;
                 }
 
             }
 
             .textosDelgp {
                 display: flex;
-                margin: -237px 0px 176px 17px;
+                margin: -10px 0px 176px 196px;
                 width: -127px;
                 flex-direction: column;
+                text-align: justify;
 
                 p {
                     display: flex;
-                    margin: 10px 66px 2px 2px;
+                    margin: 10px 66px 2px -53px;
                     text-align: left;
-                    width: 587px;
+                    width: 731px;
+                    text-align: justify;
                 }
             }
 
             .articulosDeblog {
                 display: flex;
-                margin: 28px 0px 33px 76px;
-
+                margin: 28px 0px 33px 210px;
+                flex-direction: column;
 
                 .boxblog {
                     display: inline-flex;
@@ -409,6 +413,7 @@ footer {
                     width: 561px;
                     justify-content: center;
                     padding: 16px;
+
 
                     .tarjeta {
                         margin: 2px 2px 2px 2px;
@@ -489,8 +494,14 @@ footer {
                 }
 
                 .imagenDelnewslatter1 {
-                    height: 503px;
-                    margin: -628px -8px 109px 868px;
+                    img {
+                        margin: 2px -8px 109px -18px;
+                        height: 503px;
+                        margin: -1px -8px 109px -23px;
+                    }
+
+
+
                 }
 
             }
@@ -602,16 +613,25 @@ footer {
                 margin: 10px;
             }
 
+            .textosDelgp {
+                display: flex;
+                margin: -10px 0px 176px 74px;
+                width: -127px;
+                flex-direction: column;
+                text-align: justify;
+            }
+
             .noticias {
                 display: flex;
                 align-items: center;
                 display: block;
-                margin: 0px -61px;
+                margin: 0px 126px;
             }
 
             .articulosDeblog {
                 justify-content: center;
-                margin: 2px 2px 2px -122px;
+                margin: 2px 2px 2px 95px;
+                flex-direction: column;
             }
 
             .box {
@@ -639,10 +659,22 @@ footer {
                 p {
 
                     display: flex;
-                    width: 738px;
+                    width: 681px;
+                    margin: 2px 2px 2px 40px;
+
                 }
 
                 text-align: justify;
+            }
+
+            .textosDelgp {
+                p {
+                    display: flex;
+                    margin: 10px 66px 2px -32px;
+                    text-align: left;
+                    width: 681px;
+                    text-align: justify;
+                }
             }
 
             .encabezadosDeseccion h1,
@@ -678,7 +710,9 @@ footer {
             }
         }
     }
-
+    .imagenDelnewslatter1 {
+       display: none;
+    }
     .nav {
         flex-direction: column;
         background-color: #07371c;
@@ -768,7 +802,7 @@ footer {
 
             .textosDelgp {
                 display: flex;
-                margin: -237px 0px 176px 17px;
+                margin: 29px 0px 176px 17px;
                 width: -127px;
                 flex-direction: column;
                 padding: 2px 2px 2px 2px;
@@ -783,7 +817,7 @@ footer {
 
             }
 
-            .textoDelmain  {
+            .textoDelmain {
                 p {
                     display: flex;
                     width: 385px;
@@ -791,7 +825,8 @@ footer {
                     margin: 47px 2px 2px 14px;
                 }
             }
-            .encabezadosDeseccion  {
+
+            .encabezadosDeseccion {
                 h1 {
                     display: flex;
                     width: 385px;
@@ -799,6 +834,7 @@ footer {
                     margin: 47px 2px 2px 26px;
                 }
             }
+
             .noticias {
                 display: flex;
                 align-items: center;
@@ -808,10 +844,10 @@ footer {
                 .box {
                     display: inline-flex;
                     background-color: gainsboro;
-                    margin: 90px -76px 31px 102px;
+                    margin: 90px -76px 31px 56px;
                     border-radius: 5px;
-                    box-shadow: 5px 5px 15px gray;
                     overflow: hidden;
+                    width: 425px;
 
                     img {
                         height: 290px;
@@ -892,21 +928,61 @@ footer {
             }
 
             .articulosDeblog {
-                justify-content: center;
-                margin: 2px 2px 2px -6px;
+                display: flex;
+                margin: 28px 0px 33px 210px;
+                flex-direction: column;
 
-                .boxblog {
+                .boxblog1,
+                .boxblog2,
+                .boxblog3 {
                     display: inline-flex;
-                    background-color: gainsboro;
-                    margin: 50px 2px 3px 29px;
+                    background-color: $color-cajas;
+                    margin: 50px 50px 10px -210px;
                     border-radius: 5px;
                     overflow: hidden;
                     align-items: center;
-                    width: 371px;
+                    width: 420px;
                     justify-content: center;
                     padding: 16px;
+
+
+                    .tarjeta {
+                        margin: 2px 2px 2px 2px;
+
+                        h5 {
+                            margin: 2px 2px 2px 38px;
+                            height: 42px;
+                            width: 289px;
+                        }
+                    }
+
+                    .parrafoBlog1,
+                    .parrafoBlog2,
+                    .parrafoBlog3 {
+                        display: flex;
+                        margin: 2px 2px 16px -6px;
+                        flex-wrap: nowrap;
+                        width: 380px;
+                        height: 198px;
+                        overflow: hidden;
+                    }
+
+                    p {
+                        margin: 5px 20px 5px 20px;
+                        text-align: justify;
+
+                    }
+
+                    img {
+                        width: 733px;
+                        align-content: center;
+                        padding: -105px 5px 5px 5px;
+                        margin: 54px -202px 31px -165px;
+                        object-fit: contain;
+                    }
                 }
             }
+
 
             .textoDelmain {
                 p {
@@ -945,6 +1021,10 @@ footer {
             .imagenDelmain2,
             .imagenDelmain3,
             .imagenDelmain4 {
+                display: none;
+            }
+
+            .imagenDelnewslatter1 {
                 display: none;
             }
 

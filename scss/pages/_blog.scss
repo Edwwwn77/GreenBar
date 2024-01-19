@@ -8,6 +8,7 @@ $color-cajas: gainsboro;
     overflow: hidden;
 }
 
+
 main {
     .articulosDeblog {
         justify-content: center;
@@ -30,19 +31,115 @@ main {
     .articulosDeblog {
         display: flex;
         margin: 2px 2px 2px 2px;
+        
 
-        .boxblog {
+        .boxblog2 {
             display: inline-flex;
-            background-color: $color-cajas;
+            background-color: gainsboro;
             margin: 50px 10px 10px 10px;
             border-radius: 5px;
             overflow: hidden;
             align-items: center;
-            width: 455px;
+            width: 540px;
             justify-content: center;
             padding: 2px;
-            height: auto;
+            height: 812px;
 
+            .tarjeta {
+                h5 {
+                    margin: 2px 2px 2px 27px;
+                }
+
+                margin: 2px 2px 2px 2px;
+
+            }
+
+            .parrafoBlog1 {
+                @extend %parrafoBlog1;
+
+            }
+
+            .parrafoBlog2 {
+                @extend %parrafoBlog1;
+            }
+
+            .parrafoBlog3 {
+                @extend %parrafoBlog1;
+            }
+
+            h3 {
+                text-align: center;
+            }
+
+            img {
+                width: 733px;
+                align-content: center;
+                padding: -105px 5px 5px 5px;
+                margin: 54px -202px 31px -200px;
+                object-fit: contain;
+
+            }
+        }
+
+        .boxblog3 {
+            display: inline-flex;
+            background-color: gainsboro;
+            margin: 50px 10px 10px 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            align-items: center;
+            width: 540px;
+            justify-content: center;
+            padding: 2px;
+            height: 812px;
+
+            .tarjeta {
+                h5 {
+                    margin: 2px 2px 2px 27px;
+                }
+
+                margin: 2px 2px 2px 2px;
+
+            }
+
+            .parrafoBlog1 {
+                @extend %parrafoBlog1;
+
+            }
+
+            .parrafoBlog2 {
+                @extend %parrafoBlog1;
+            }
+
+            .parrafoBlog3 {
+                @extend %parrafoBlog1;
+            }
+
+            h3 {
+                text-align: center;
+            }
+
+            img {
+                width: 733px;
+                align-content: center;
+                padding: -105px 5px 5px 5px;
+                margin: 54px -202px 31px -200px;
+                object-fit: contain;
+
+            }
+        }
+
+        .boxblog1 {
+            display: inline-flex;
+            background-color: gainsboro;
+            margin: 50px 10px 10px 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            align-items: center;
+            width: 540px;
+            justify-content: center;
+            padding: 2px;
+            height: 812px;
 
             .tarjeta {
                 h5 {
