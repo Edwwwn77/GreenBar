@@ -1215,6 +1215,11 @@ footer .direccion2 {
   body .tituloDelapagina {
     padding: 30px;
   }
+  body header {
+    background-color: rgba(3, 53, 25, 0.9843137255);
+    top: 5px;
+    margin: 2px -10px 27px -15px;
+  }
   body .nav {
     flex-direction: column;
   }
@@ -1241,6 +1246,11 @@ footer .direccion2 {
     width: 0px;
     height: 805px;
     margin: -747px 1090px 63px 522px;
+  }
+  body main .portadaDenoticias img {
+    display: flex;
+    width: 100%;
+    margin: 2px 2px 2px 5px;
   }
   body main .encabezadosDeseccion h2 {
     display: flex;
@@ -1287,10 +1297,10 @@ footer .direccion2 {
   body main .noticias .box {
     display: inline-flex;
     background-color: gainsboro;
-    margin: 90px -76px 31px 56px;
+    margin: 90px -76px 31px 62px;
     border-radius: 5px;
     overflow: hidden;
-    width: 425px;
+    width: 320px;
   }
   body main .noticias .box img {
     height: 290px;

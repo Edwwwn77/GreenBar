@@ -1076,6 +1076,13 @@ footer {
             padding: 30px;
         }
 
+        header {
+            background-color: rgba(3, 53, 25, 0.9843137255);
+
+            top: 5px;
+            margin: 2px -10px 27px -15px;
+        }
+
         .nav {
             flex-direction: column;
         }
@@ -1096,9 +1103,11 @@ footer {
                     object-fit: cover;
                 }
             }
+
             .tablaDepuntuacion {
-               display: none;
+                display: none;
             }
+
             .imagenDelmain {
                 img {
                     display: flex;
@@ -1106,6 +1115,14 @@ footer {
                     width: 0px;
                     height: 805px;
                     margin: -747px 1090px 63px 522px;
+                }
+            }
+
+            .portadaDenoticias {
+                img {
+                    display: flex;
+                    width: 100%;
+                    margin: 2px 2px 2px 5px;
                 }
             }
 
@@ -1171,10 +1188,10 @@ footer {
                 .box {
                     display: inline-flex;
                     background-color: gainsboro;
-                    margin: 90px -76px 31px 56px;
+                    margin: 90px -76px 31px 62px;
                     border-radius: 5px;
                     overflow: hidden;
-                    width: 425px;
+                    width: 320px;
 
                     img {
                         height: 290px;
