@@ -1264,7 +1264,7 @@ footer .direccion2 {
   }
   body main .textosDelgp {
     display: flex;
-    margin: 29px 0px 176px 17px;
+    margin: 29px 0px 176px 0px;
     width: -127px;
     flex-direction: column;
     padding: 2px 2px 2px 2px;
@@ -1274,7 +1274,7 @@ footer .direccion2 {
     padding: 2px 2px 2px 2px;
     display: flex;
     flex-direction: column;
-    margin: 2px 2px 79px 2px;
+    margin: 2px 2px 79px 0px;
   }
   body main .textoDelmain p {
     display: flex;
@@ -1371,7 +1371,7 @@ footer .direccion2 {
   }
   body main .articulosDeblog {
     display: flex;
-    margin: 28px 0px 33px 210px;
+    margin: 28px 0px 33px 216px;
     flex-direction: column;
   }
   body main .articulosDeblog .boxblog1,
@@ -1383,7 +1383,7 @@ footer .direccion2 {
     border-radius: 5px;
     overflow: hidden;
     align-items: center;
-    width: 320px;
+    width: 284px;
     justify-content: center;
     padding: 16px;
   }
@@ -1391,6 +1391,7 @@ footer .direccion2 {
   body main .articulosDeblog .boxblog2 .tarjeta,
   body main .articulosDeblog .boxblog3 .tarjeta {
     margin: 2px 2px 2px 2px;
+    width: 320px;
   }
   body main .articulosDeblog .boxblog1 .tarjeta h5,
   body main .articulosDeblog .boxblog2 .tarjeta h5,
@@ -1438,12 +1439,12 @@ footer .direccion2 {
   body main .boxNewslatter {
     display: flex;
     background-color: gainsboro;
-    margin: 16px 215px 18px 11px;
+    margin: 16px 215px 18px 15px;
     border-radius: 5px;
     box-shadow: 5px 5px 15px gray;
     overflow: hidden;
     align-content: flex-end;
-    width: 400px;
+    width: 310px;
     height: 480px;
     align-items: center;
     flex-direction: row;
