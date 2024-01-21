@@ -605,6 +605,221 @@ footer .direccion2 {
   margin: -157px 0px 0px 0px;
 }
 
+@media screen and (max-width: 1200px) {
+  body {
+    grid-template-areas: "header header" "nav nav" "main main" "pie pie";
+    grid-template-columns: 512px 512px;
+    grid-template-rows: 150px 20px auto 1fr;
+  }
+  body main .imagenDelgp2 img {
+    display: flex;
+    margin: -18px 238px 27px 720px;
+    width: 39%;
+    height: 50%;
+  }
+  body main .imagenDelmain2 {
+    display: flex;
+    justify-content: left;
+    width: 0px px;
+    height: 557px;
+    margin: -759px 938px 31px 881px;
+  }
+  body main .imagenDelmain {
+    display: flex;
+    justify-content: left;
+    width: 0px;
+    height: 552px;
+    margin: -579px 1090px 204px 552px;
+  }
+  body main .portadaDeblog img {
+    display: flex;
+    width: 100%;
+  }
+  body main .ultimoGpdisputado {
+    margin-top: 2px;
+  }
+  body main .textosDelgp {
+    display: flex;
+    margin: -303px 0px 176px 17px;
+    width: -127px;
+    flex-direction: column;
+  }
+  body main .textosDelgp p {
+    display: flex;
+    margin: 10px 66px 2px 2px;
+    text-align: left;
+    width: 632px;
+  }
+  body main .imagenDelgp img {
+    display: flex;
+    margin: 54px 238px 27px 720px;
+    width: 39%;
+    height: 50%;
+  }
+  body main .imagenDelgp3 {
+    display: none;
+  }
+  body main .imagenDelgp3 img {
+    display: flex;
+    margin: 54px 238px 27px 720px;
+    width: 50%;
+    height: 50%;
+  }
+  body main .ultimoGpdisputado img {
+    width: 100%;
+  }
+  body main .noticias {
+    display: flex;
+    align-items: center;
+    display: block;
+    margin: 0px 37px;
+  }
+  body main .noticias .box {
+    display: inline-flex;
+    background-color: gainsboro;
+    margin: 38px 69px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  body main .noticias .box .tarjetaNoticias1 img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  body main .portadaDenoticias img {
+    display: flex;
+    width: 100%;
+  }
+  body main .imagenesParacontacto {
+    display: flex;
+  }
+  body main .imagenesParacontacto .imagenDelnewslatter1 {
+    margin: 4px -8px 109px 1px;
+  }
+  body main .imagenesParacontacto .imagenDelnewslatter2 {
+    margin: 5px 2px 109px 31px;
+  }
+  body main .imagenesParacontacto .imagenDelnewslatter3 {
+    margin: -628px 2px 116px 12px;
+  }
+  body main .imagenesParacontacto .imagenDelnewslatter4 {
+    height: 50%;
+    width: 50%;
+    margin: -239px 2px 2px -937px;
+  }
+  body main .boxblog {
+    display: inline-flex;
+    background-color: gainsboro;
+    margin: 50px 30px 35px 43px;
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center;
+    width: 428px;
+    justify-content: center;
+    padding: 16px;
+    height: auto;
+  }
+  body main .boxblog img {
+    width: 733px;
+    align-content: center;
+    padding: -105px 5px 5px 5px;
+    margin: 54px -202px 31px -165px;
+    object-fit: contain;
+  }
+  body main .textoDelmain p {
+    display: flex;
+    width: 500px;
+    text-align: justify;
+  }
+  body main .imagenDelnewslatter3,
+  body main .imagenDelnewslatter4 {
+    display: none;
+  }
+  body main .imagenDelmain2,
+  body main .imagenDelmain3,
+  body main .imagenDelmain4 {
+    display: none;
+  }
+  body main .imagenDelmain2 {
+    display: flex;
+    justify-content: left;
+    width: 0px;
+    height: 557px;
+    margin: -759px 938px 31px 877px;
+  }
+  body main .tablaDepuntuacion {
+    display: flex;
+    margin: -133px 2px 2px 2px;
+  }
+  body main .boxNewslatter {
+    display: flex;
+    background-color: gainsboro;
+    margin: 40px 134px 10px 23px;
+    border-radius: 5px;
+    overflow: hidden;
+    align-content: center;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  body main .boxNewslatter h2 {
+    text-align: center;
+    margin: -51px -527px 340px -237px;
+  }
+  body main .encabezadosDeseccion h1,
+  body main .tituloDelapagina h1,
+  body main .tituloDelapagina h2,
+  body main .encabezadosDeseccion h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
+  body main .encabezadosDeseccion h1 {
+    margin-top: 24px;
+  }
+  body main .encabezadosDeseccion h2 {
+    margin-top: 26px;
+  }
+  body main .box img {
+    display: flex;
+    align-items: center;
+    margin: 28px -18px;
+    overflow: hidden;
+    width: 108%;
+  }
+}
+.tituloDelapagina {
+  padding: 30px;
+}
+
+.nav {
+  flex-direction: column;
+  background-color: #07371c;
+}
+
+.ultimoGpdisputado #img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .listaPie1 ul,
+footer .listaPie2 ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+footer .listaPie1 ul h2,
+footer .listaPie2 ul h2 {
+  display: flex;
+  flex-direction: column;
+}
+footer .direccion2 {
+  display: flex;
+  margin: -157px 0px 0px 0px;
+}
+
 @media screen and (max-width: 1024px) {
   body {
     grid-template-areas: "header header" "nav nav" "main main" "pie pie";
@@ -1237,6 +1452,9 @@ footer .direccion2 {
     max-width: 100%;
     object-fit: cover;
   }
+  body main .ultimoGpdisputado img {
+    width: 320px;
+  }
   body main .tablaDepuntuacion {
     display: none;
   }
@@ -1267,7 +1485,7 @@ footer .direccion2 {
     margin: 29px 0px 176px 0px;
     width: -127px;
     flex-direction: column;
-    padding: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 8px;
   }
   body main .textosDelgp p {
     width: 96%;
