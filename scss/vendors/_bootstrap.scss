@@ -11,7 +11,7 @@ header .bg-body-tertiary {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
 }
-navbar {
+.navbar {
     --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0.5rem;
     --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
@@ -38,4 +38,8 @@ navbar {
     align-items: center;
     justify-content: space-between;
     padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+
+.carousel {
+    position: relative;
 }
