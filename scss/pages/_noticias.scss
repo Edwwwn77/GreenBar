@@ -25,41 +25,65 @@ main {
         display: flex;
         align-items: center;
         display: block;
-        margin: 0px 57px;
+        margin: 0px 37px;
 
         .box {
+            display:inline-flex;
+            background-color: gainsboro;
+            margin: 38px 69px;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 35%;
+            .tarjetaNoticias1 {
+               
+                img {
+                    max-width: 100%;
+                    object-fit: cover;
 
-            display: flex;
-            flex-direction: row;
-            display: inline-flex;
-            margin: 17px 30px 20px 20px;
+                }
 
+            }
+            .tarjetaNoticias2 {
+                img {
+                    max-width: 100%;
+                    object-fit: cover;
 
+                }
 
-            .tarjetaNoticia1 {
-                @extend %tarjetasDenoticias;
+            }
+            .tarjetaNoticias3 {
+                img {
+                    max-width: 100%;
+                    object-fit: cover;
+
+                }
+
+            }
+            .tarjetaNoticias4 {
+                img {
+                    max-width: 100%;
+                    object-fit: cover;
+
+                }
+
+            }
+            .tarjetaNoticias5 {
+                img {
+                    max-width: 100%;
+                    object-fit: cover;
+
+                }
+
+            }
+            .tarjetaNoticias6 {
+                img {
+                    max-width: 100%;
+                    object-fit: cover;
+
+                }
 
             }
 
-            .tarjetaNoticia2 {
-                @extend %tarjetasDenoticias;
-            }
-
-            .tarjetaNoticia3 {
-                @extend %tarjetasDenoticias;
-            }
-
-            .tarjetaNoticia4 {
-                @extend %tarjetasDenoticias;
-            }
-
-            .tarjetaNoticia5 {
-                @extend %tarjetasDenoticias;
-            }
-
-            .tarjetaNoticia6 {
-                @extend %tarjetasDenoticias;
-            }
         }
     }
 }

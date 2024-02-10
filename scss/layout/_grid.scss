@@ -23,7 +23,220 @@ footer {
 
 }
 
+@media screen and (max-width: 1518px) {
 
+    body {
+        grid-template-areas:
+            "header header"
+            "nav nav"
+            "main main"
+            "pie pie";
+        grid-template-columns: 512px 512px;
+        grid-template-rows: 150px 20px auto 1fr;
+
+        main {
+
+
+
+
+            .imagenDelgp2 img {
+                img {
+                    margin: -13px 0px 27px 978px;
+                    width: 35%;
+
+                    height: auto;
+
+                }
+            }
+
+            .textosDelgp {
+                display: flex;
+                margin: -400px 4px 176px 17px;
+                flex-direction: column;
+            }
+
+            .imagenDelgp {
+                img {
+                    display: flex;
+                    margin: 51px 257px 30px 969px;
+                    width: 36%;
+                    height: 50%;
+                }
+            }
+
+            .imagenDelmain {
+                display: flex;
+                justify-content: left;
+                margin: -389px 1023px 514px 881px;
+                object-fit: cover;
+                width: 639px;
+                height: 341px;
+                object-fit: cover;
+            }
+
+            .imagenDelmain2 {
+                display: flex;
+                justify-content: left;
+                margin: -396px 957px 111px 1089px;
+                object-fit: cover;
+                height: 341px;
+                object-fit: cover;
+            }
+
+            .box .tarjetaNoticias1 img {
+                width: 100%;
+
+                height: 200px;
+
+            }
+
+            .noticias {
+                display: flex;
+                align-items: center;
+                display: block;
+                margin: 0px 197px;
+
+                .box {
+
+                    align-items: flex-start;
+                    flex-direction: column;
+                    margin: 2px 6px 2px 3px;
+
+                }
+            }
+
+
+            .imagenesParacontacto {
+                margin: 125px 2px 2px -270px;
+
+                .imagenDelnewslatter1 {
+                    display: none;
+
+                }
+
+                .imagenDelnewslatter2 {
+                    img {
+
+                        margin: 18px 2px 109px -72px;
+                    }
+
+                }
+
+                .imagenDelnewslatter3 {
+                    img {
+
+                        margin: 18px 2px 116px 20px;
+
+                    }
+
+                }
+
+                .imagenDelnewslatter4 {
+                    display: none;
+
+
+                }
+            }
+
+
+
+
+            .boxblog img {
+                width: 100%;
+
+                margin: 0;
+
+                height: auto;
+
+            }
+
+
+            .imagenDelmain {
+                margin: -384px 10px 54px auto;
+
+            }
+
+
+
+            .imagenDelmain3,
+            .imagenDelmain4 {
+                display: none;
+            }
+
+
+            .tablaDepuntuacion {
+                margin: -133px auto 2px auto;
+
+            }
+
+
+            .boxNewslatter {
+                margin: 40px 5 10px auto;
+
+            }
+
+
+            .encabezadosDeseccion h1,
+            .tituloDelapagina h1,
+            .tituloDelapagina h2,
+            .encabezadosDeseccion h2 {
+                margin-top: 150px;
+                margin-bottom: 20px;
+            }
+
+
+            .encabezadosDeseccion h1 {
+                margin-top: 24px;
+            }
+
+
+            .encabezadosDeseccion h2 {
+                margin-top: 26px;
+            }
+
+            .box img {
+                width: 100%;
+
+            }
+        }
+    }
+}
+
+
+.tituloDelapagina {
+    padding: 30px;
+}
+
+.nav {
+    flex-direction: column;
+    background-color: #07371c;
+}
+
+.ultimoGpdisputado #img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+
+    .listaPie1 ul,
+    .listaPie2 ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+        h2 {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .direccion2 {
+        display: flex;
+        margin: -157px 0px 0px 0px;
+    }
+}
 
 @media screen and (max-width: 1440px) {
 
@@ -40,9 +253,9 @@ footer {
             .imagenDelgp2 {
                 img {
                     display: flex;
-                    margin: -18px 238px 27px 720px;
-                    width: 50%;
-                    height: 50%;
+                    margin: -18px 238px 27px 901px;
+                    width: 37%;
+                    height: 37%;
                 }
 
             }
@@ -77,8 +290,8 @@ footer {
             .imagenDelgp {
                 img {
                     display: flex;
-                    margin: 54px 238px 27px 720px;
-                    width: 50%;
+                    margin: 54px 238px 27px 901px;
+                    width: 37%;
                     height: 50%;
                 }
 
@@ -145,7 +358,7 @@ footer {
                 }
 
                 .imagenDelnewslatter2 {
-                    margin: -628px 2px 109px 24px;
+                    margin: -628px 2px 109px 1107px;
                 }
 
                 .imagenDelnewslatter3 {
@@ -251,6 +464,7 @@ footer {
 
             .encabezadosDeseccion h2 {
                 margin-top: 26px;
+                margin-bottom: 128px;
             }
 
             .box {
@@ -407,18 +621,38 @@ footer {
                 .box {
                     display: inline-flex;
                     background-color: gainsboro;
-                    margin: 38px 69px;
+                    margin: 53px 7px;
                     border-radius: 5px;
+                    background-color: gainsboro;
                     overflow: hidden;
+                    width: 458px;
+                    height: 458px;
 
-                    .tarjetaNoticias1 {
+                    .tarjetaNoticia1,
+                    .tarjetaNoticia2,
+                    .tarjetaNoticia3,
+                    .tarjetaNoticia4,
+                    .tarjetaNoticia5,
+                    .tarjetaNoticia6 {
+                        display: flex;
+                        background-color: gainsboro;
+                        margin: 5px;
+                        border-radius: 5px;
+                        align-content: center;
+                        width: 500px;
+                        margin: 20px 20px 20px 20px;
+                        flex-direction: column;
+
                         img {
                             max-width: 100%;
                             object-fit: cover;
-
+                            width: 110%;
+                            height: 50%;
+                            margin: 2px 2px 2px 0px;
+                            overflow: hidden;
                         }
-
                     }
+
 
                 }
             }
@@ -631,17 +865,31 @@ footer {
                         border-radius: 5px;
                         align-content: center;
                         width: 500px;
-                        margin: 20px 20px 20px 20px;
+                        margin: 20px 20px 20px -8px;
                         flex-direction: column;
+
+                        h5 {
+                            margin: 2px 2px 29px 29px;
+                            width: 85%;
+
+                        }
 
                         img {
                             max-width: 100%;
                             object-fit: cover;
                             width: 110%;
                             height: 50%;
-                            margin: 2px 2px 2px 0px;
+                            margin: -14px 2px 2px 0px;
                             overflow: hidden;
                         }
+
+                        p {
+
+                            margin: 13px 52px -16px 21px;
+                            text-align: justify;
+
+                        }
+
                     }
 
 
@@ -1134,10 +1382,11 @@ footer {
                 .box {
                     display: inline-flex;
                     background-color: gainsboro;
-                    margin: 90px -76px 31px 56px;
+                    margin: 90px -76px 31px 65px;
                     border-radius: 5px;
                     overflow: hidden;
-                    width: 425px;
+                    width: 357px;
+                    height: 610px;
 
                     img {
                         height: 290px;
@@ -1156,6 +1405,27 @@ footer {
                         width: 500px;
                         margin: 20px 20px 20px 20px;
                         flex-direction: column;
+
+                        h5 {
+
+                            margin: 35px 13px 35px -3px;
+                            width: 67%;
+
+                        }
+
+                        img {
+                            max-width: 100%;
+                            object-fit: cover;
+                            width: 110%;
+                            height: 40%;
+                            margin: -14px 2px 2px -88px;
+                            overflow: hidden;
+                        }
+                        p {
+                            margin: 13px 52px -16px -7px;
+                            text-align: justify;
+                            width: 64%;
+                        }
                     }
 
                     .tarjetaNoticia2 {
@@ -1167,6 +1437,26 @@ footer {
                         width: 500px;
                         margin: 20px 20px 20px 20px;
                         flex-direction: column;
+                        h5 {
+
+                            margin: 35px 13px 35px -3px;
+                            width: 67%;
+
+                        }
+
+                        img {
+                            max-width: 100%;
+                            object-fit: cover;
+                            width: 110%;
+                            height: 40%;
+                            margin: -14px 2px 2px -88px;
+                            overflow: hidden;
+                        }
+                        p {
+                            margin: 13px 52px -16px -7px;
+                            text-align: justify;
+                            width: 64%;
+                        }
                     }
 
                     .tarjetaNoticia3 {
@@ -1178,6 +1468,26 @@ footer {
                         width: 500px;
                         margin: 20px 20px 20px 20px;
                         flex-direction: column;
+                        h5 {
+
+                            margin: 35px 13px 35px -3px;
+                            width: 67%;
+
+                        }
+
+                        img {
+                            max-width: 100%;
+                            object-fit: cover;
+                            width: 110%;
+                            height: 40%;
+                            margin: -14px 2px 2px -88px;
+                            overflow: hidden;
+                        }
+                        p {
+                            margin: 13px 52px -16px -7px;
+                            text-align: justify;
+                            width: 64%;
+                        }
                     }
 
                     .tarjetaNoticia4 {
@@ -1189,6 +1499,26 @@ footer {
                         width: 500px;
                         margin: 20px 20px 20px 20px;
                         flex-direction: column;
+                        h5 {
+
+                            margin: 35px 13px 35px -3px;
+                            width: 67%;
+
+                        }
+
+                        img {
+                            max-width: 100%;
+                            object-fit: cover;
+                            width: 110%;
+                            height: 40%;
+                            margin: -14px 2px 2px -88px;
+                            overflow: hidden;
+                        }
+                        p {
+                            margin: 13px 52px -16px -7px;
+                            text-align: justify;
+                            width: 64%;
+                        }
                     }
 
                     .tarjetaNoticia5 {
@@ -1200,6 +1530,26 @@ footer {
                         width: 500px;
                         margin: 20px 20px 20px 20px;
                         flex-direction: column;
+                        h5 {
+
+                            margin: 35px 13px 35px -3px;
+                            width: 67%;
+
+                        }
+
+                        img {
+                            max-width: 100%;
+                            object-fit: cover;
+                            width: 110%;
+                            height: 40%;
+                            margin: -14px 2px 2px -88px;
+                            overflow: hidden;
+                        }
+                        p {
+                            margin: 13px 52px -16px -7px;
+                            text-align: justify;
+                            width: 64%;
+                        }
                     }
 
                     .tarjetaNoticia6 {
@@ -1211,12 +1561,35 @@ footer {
                         width: 500px;
                         margin: 20px 20px 20px 20px;
                         flex-direction: column;
+                        h5 {
+
+                            margin: 35px 13px 35px -3px;
+                            width: 67%;
+
+                        }
+
+                        img {
+                            max-width: 100%;
+                            object-fit: cover;
+                            width: 110%;
+                            height: 40%;
+                            margin: -14px 2px 2px -88px;
+                            overflow: hidden;
+                        }
+                        p {
+                            margin: 13px 52px -16px -7px;
+                            text-align: justify;
+                            width: 64%;
+                        }
                     }
                 }
 
 
             }
-
+            .tablaDepuntuacion{
+                display: flex;
+                width: auto;
+            }
             .articulosDeblog {
                 display: flex;
                 margin: 28px 0px 33px 210px;
@@ -1227,11 +1600,11 @@ footer {
                 .boxblog3 {
                     display: inline-flex;
                     background-color: $color-cajas;
-                    margin: 50px 50px 10px -210px;
+                    margin: 50px 50px 10px -184px;
                     border-radius: 5px;
                     overflow: hidden;
                     align-items: center;
-                    width: 420px;
+                    width: 326px;
                     justify-content: center;
                     padding: 16px;
 
@@ -1258,8 +1631,10 @@ footer {
                     }
 
                     p {
-                        margin: 5px 20px 5px 20px;
+                        margin: 5px 20px 5px 47px;
                         text-align: justify;
+                        width: 78%;
+
 
                     }
 
@@ -1290,7 +1665,7 @@ footer {
                 box-shadow: 5px 5px 15px gray;
                 overflow: hidden;
                 align-content: flex-end;
-                width: 400px;
+                width: 360px;
                 height: 480px;
                 align-items: center;
                 flex-direction: row;
@@ -1345,6 +1720,186 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 325px) {
+
+    body {
+        grid-template-areas:
+            "header"
+            "nav"
+            "nav"
+            "main"
+            "pie";
+        grid-template-columns: 150px;
+        grid-template-rows: 100px 1fr 1fr auto 1fr;
+        display: block;
+
+        .tituloDelapagina {
+            padding: 15px;
+            /* Reduje el padding para adaptarse mejor a pantallas más pequeñas */
+        }
+
+        .nav {
+            flex-direction: column;
+        }
+
+        main {
+            .box {
+                margin: 10px auto;
+                /* Ajusté los márgenes para centrar el elemento */
+                width: 90%;
+                /* Cambié el ancho a un porcentaje para adaptarse mejor */
+            }
+
+            .encabezadosDeseccion h2 {
+                margin-top: 20px;
+                /* Ajusté el margen superior para separar mejor los encabezados */
+            }
+
+            .noticias {
+                margin: 10px auto;
+                /* Ajusté los márgenes para centrar el elemento */
+            }
+
+            .box .tarjetaNoticias1 img {
+                width: 100%;
+                /* Cambiado a 100% para ajustar al ancho del contenedor */
+                height: auto;
+                /* Ajustado para mantener la proporción */
+            }
+
+            .articulosDeblog {
+                display: flex;
+                margin: 10px auto;
+                /* Ajusté los márgenes para centrar el elemento */
+                flex-direction: column;
+            }
+
+            .boxblog1,
+            .boxblog2,
+            .boxblog3 {
+                display: flex;
+                background-color: $color-cajas;
+                margin: 10px auto;
+                /* Ajusté los márgenes para centrar el elemento */
+                border-radius: 5px;
+                overflow: hidden;
+                align-items: center;
+                justify-content: center;
+                width: 90%;
+                /* Cambié el ancho a un porcentaje para adaptarse mejor */
+                padding: 16px;
+
+                .tarjeta {
+                    margin: 2px 2px 2px 2px;
+
+                    h5 {
+                        margin: 2px 2px 2px 38px;
+                        height: 42px;
+                        width: 289px;
+                    }
+                }
+
+                .parrafoBlog1,
+                .parrafoBlog2,
+                .parrafoBlog3 {
+                    display: flex;
+                    margin: 2px 2px 16px -6px;
+                    flex-wrap: nowrap;
+                    width: 90%;
+                    /* Cambié el ancho a un porcentaje para adaptarse mejor */
+                    height: 198px;
+                    overflow: hidden;
+                }
+
+                p {
+                    margin: 5px 20px 5px 20px;
+                    text-align: justify;
+                }
+
+                img {
+                    width: 100%;
+                    /* Cambiado a 100% para ajustar al ancho del contenedor */
+                    height: auto;
+                    /* Ajustado para mantener la proporción */
+                }
+            }
+
+            .textoDelmain p {
+                display: flex;
+                width: 90%;
+                /* Cambié el ancho a un porcentaje para adaptarse mejor */
+                text-align: justify;
+                margin: 10px auto;
+                /* Ajusté los márgenes para centrar el elemento */
+            }
+
+            .boxNewslatter {
+                margin: 10px auto;
+                /* Ajusté los márgenes para centrar el elemento */
+                width: 90%;
+                /* Cambié el ancho a un porcentaje para adaptarse mejor */
+                height: auto;
+                /* Cambié la altura a auto para adaptarse al contenido */
+                display: flex;
+                flex-direction: column;
+                background-color: gainsboro;
+                border-radius: 5px;
+                box-shadow: 5px 5px 15px gray;
+                overflow: hidden;
+                align-items: center;
+
+                h2 {
+                    margin-bottom: 10px;
+                    /* Ajusté el margen inferior para separar mejor los elementos */
+                    text-align: center;
+                }
+
+                .labelsDeformulario {
+                    display: flex;
+                    flex-direction: column;
+                    align-content: flex-end;
+                }
+            }
+
+            .imagenDelmain,
+            .imagenDelmain2,
+            .imagenDelmain3,
+            .imagenDelmain4 {
+                display: none;
+            }
+
+            .imagenDelnewslatter1 {
+                display: none;
+            }
+
+            .encabezadosDeseccion h2 {
+                display: flex;
+                font-size: large;
+            }
+
+            .box {
+                margin: 10px auto;
+                /* Ajusté los márgenes para centrar el elemento */
+            }
+        }
+    }
+
+    footer {
+
+        .listaPie1 ul,
+        .listaPie2 ul {
+            padding: 5px;
+            /* Reduje el padding para adaptarse mejor a pantallas más pequeñas */
+
+            h2 {
+                margin-bottom: 5px;
+                /* Ajusté el margen inferior para separar mejor los elementos */
+            }
+        }
+    }
+}
+
 
 @media screen and (max-width: 320px) {
 
